@@ -1,0 +1,5 @@
+data_path = './data/'
+tmp_path = './data/tmp/'
+emb_path = './data/emb/sgns.zhihu.bigram-char'
+model_path = './data/model/'
+corpus_path = './data/corpus/'

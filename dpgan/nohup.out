@@ -1,0 +1,2961 @@
+INFO:tensorflow:Starting running in train_generator mode...
+INFO:tensorflow:Building generator graph...
+INFO:tensorflow:Tensor("seq2seq/embedding/concat:0", shape=(64, ?, 512), dtype=float32, device=/device:GPU:0)
+INFO:tensorflow:Time to build graph: 28 seconds
+2018-08-20 20:50:42.064463: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2018-08-20 20:50:42.064525: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-08-20 20:50:42.064536: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2018-08-20 20:50:42.064544: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-08-20 20:50:42.064551: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2018-08-20 20:50:42.214887: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:893] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-08-20 20:50:42.215468: I tensorflow/core/common_runtime/gpu/gpu_device.cc:955] Found device 0 with properties: 
+name: Tesla P40
+major: 6 minor: 1 memoryClockRate (GHz) 1.531
+pciBusID 0000:00:03.0
+Total memory: 22.38GiB
+Free memory: 17.96GiB
+2018-08-20 20:50:42.215500: I tensorflow/core/common_runtime/gpu/gpu_device.cc:976] DMA: 0 
+2018-08-20 20:50:42.215513: I tensorflow/core/common_runtime/gpu/gpu_device.cc:986] 0:   Y 
+2018-08-20 20:50:42.215533: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla P40, pci bus id: 0000:00:03.0)
+INFO:tensorflow:starting run_pre_train_generator
+INFO:tensorflow:seconds for 1000 training generator step: 0.291 
+INFO:tensorflow:loss: 62.939966
+INFO:tensorflow:finished 1 epoches
+INFO:tensorflow:seconds for 2000 training generator step: 0.116 
+INFO:tensorflow:loss: 24.440359
+INFO:tensorflow:seconds for 3000 training generator step: 0.289 
+INFO:tensorflow:loss: 55.622977
+INFO:tensorflow:finished 2 epoches
+INFO:tensorflow:seconds for 4000 training generator step: 0.246 
+INFO:tensorflow:loss: 48.505972
+INFO:tensorflow:finished 3 epoches
+INFO:tensorflow:seconds for 5000 training generator step: 0.094 
+INFO:tensorflow:loss: 17.329013
+INFO:tensorflow:seconds for 6000 training generator step: 0.288 
+INFO:tensorflow:loss: 55.159556
+INFO:tensorflow:finished 4 epoches
+INFO:tensorflow:seconds for 7000 training generator step: 0.208 
+INFO:tensorflow:loss: 41.331888
+INFO:tensorflow:finished 5 epoches
+INFO:tensorflow:seconds for 8000 training generator step: 0.057 
+INFO:tensorflow:loss: 10.439203
+INFO:tensorflow:seconds for 9000 training generator step: 0.291 
+INFO:tensorflow:loss: 54.976818
+INFO:tensorflow:finished 6 epoches
+INFO:tensorflow:seconds for 10000 training generator step: 0.184 
+INFO:tensorflow:loss: 34.443400
+INFO:tensorflow:finished 7 epoches
+INFO:tensorflow:seconds for 11000 training generator step: 0.020 
+INFO:tensorflow:loss: 3.628662
+INFO:tensorflow:seconds for 12000 training generator step: 0.290 
+INFO:tensorflow:loss: 54.809385
+INFO:tensorflow:finished 8 epoches
+INFO:tensorflow:seconds for 13000 training generator step: 0.154 
+INFO:tensorflow:loss: 27.556757
+INFO:tensorflow:seconds for 14000 training generator step: 0.293 
+INFO:tensorflow:loss: 54.806025
+INFO:tensorflow:finished 9 epoches
+[nltk_data] Downloading package punkt to /home/ubuntu/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+max_size of vocab was specified as 80000; we now have 80000 words. Stopping reading.
+Finished constructing vocabulary of 80000 total words.
+Start pre-training generator......
+epoch: 0, loss : 11.290 , generator global step : 1
+epoch: 0, loss : 7.095 , generator global step : 101
+epoch: 0, loss : 6.391 , generator global step : 201
+epoch: 0, loss : 5.900 , generator global step : 301
+epoch: 0, loss : 5.872 , generator global step : 401
+epoch: 0, loss : 5.765 , generator global step : 501
+epoch: 0, loss : 5.722 , generator global step : 601
+epoch: 0, loss : 5.854 , generator global step : 701
+epoch: 0, loss : 5.501 , generator global step : 801
+epoch: 0, loss : 5.598 , generator global step : 901
+epoch: 0, loss : 5.829 , generator global step : 1001
+epoch: 0, loss : 5.869 , generator global step : 1101
+epoch: 0, loss : 5.452 , generator global step : 1201
+epoch: 0, loss : 5.500 , generator global step : 1301
+epoch: 0, loss : 5.623 , generator global step : 1401
+epoch: 0, loss : 5.530 , generator global step : 1501
+epoch: 1, loss : 5.646 , generator global step : 1563
+epoch: 1, loss : 5.599 , generator global step : 1663
+epoch: 1, loss : 5.416 , generator global step : 1763
+epoch: 1, loss : 5.503 , generator global step : 1863
+epoch: 1, loss : 5.368 , generator global step : 1963
+epoch: 1, loss : 5.742 , generator global step : 2063
+epoch: 1, loss : 5.461 , generator global step : 2163
+epoch: 1, loss : 5.453 , generator global step : 2263
+epoch: 1, loss : 5.377 , generator global step : 2363
+epoch: 1, loss : 5.530 , generator global step : 2463
+epoch: 1, loss : 5.352 , generator global step : 2563
+epoch: 1, loss : 5.474 , generator global step : 2663
+epoch: 1, loss : 5.551 , generator global step : 2763
+epoch: 1, loss : 5.725 , generator global step : 2863
+epoch: 1, loss : 5.320 , generator global step : 2963
+epoch: 1, loss : 5.617 , generator global step : 3063
+epoch: 2, loss : 5.575 , generator global step : 3125
+epoch: 2, loss : 5.533 , generator global step : 3225
+epoch: 2, loss : 5.370 , generator global step : 3325
+epoch: 2, loss : 5.384 , generator global step : 3425
+epoch: 2, loss : 5.657 , generator global step : 3525
+epoch: 2, loss : 5.762 , generator global step : 3625
+epoch: 2, loss : 5.462 , generator global step : 3725
+epoch: 2, loss : 5.585 , generator global step : 3825
+epoch: 2, loss : 5.499 , generator global step : 3925
+epoch: 2, loss : 5.436 , generator global step : 4025
+epoch: 2, loss : 5.792 , generator global step : 4125
+epoch: 2, loss : 5.703 , generator global step : 4225
+epoch: 2, loss : 5.270 , generator global step : 4325
+epoch: 2, loss : 5.539 , generator global step : 4425
+epoch: 2, loss : 5.600 , generator global step : 4525
+epoch: 2, loss : 5.481 , generator global step : 4625
+epoch: 3, loss : 5.448 , generator global step : 4687
+epoch: 3, loss : 5.504 , generator global step : 4787
+epoch: 3, loss : 5.624 , generator global step : 4887
+epoch: 3, loss : 5.598 , generator global step : 4987
+epoch: 3, loss : 5.508 , generator global step : 5087
+epoch: 3, loss : 5.650 , generator global step : 5187
+epoch: 3, loss : 5.624 , generator global step : 5287
+epoch: 3, loss : 5.484 , generator global step : 5387
+epoch: 3, loss : 5.462 , generator global step : 5487
+epoch: 3, loss : 5.500 , generator global step : 5587
+epoch: 3, loss : 5.385 , generator global step : 5687
+epoch: 3, loss : 5.379 , generator global step : 5787
+epoch: 3, loss : 5.384 , generator global step : 5887
+epoch: 3, loss : 5.303 , generator global step : 5987
+epoch: 3, loss : 5.472 , generator global step : 6087
+epoch: 3, loss : 5.559 , generator global step : 6187
+epoch: 4, loss : 5.444 , generator global step : 6249
+epoch: 4, loss : 5.313 , generator global step : 6349
+epoch: 4, loss : 5.458 , generator global step : 6449
+epoch: 4, loss : 5.584 , generator global step : 6549
+epoch: 4, loss : 5.332 , generator global step : 6649
+epoch: 4, loss : 5.401 , generator global step : 6749
+epoch: 4, loss : 5.589 , generator global step : 6849
+epoch: 4, loss : 5.478 , generator global step : 6949
+epoch: 4, loss : 5.400 , generator global step : 7049
+epoch: 4, loss : 5.447 , generator global step : 7149
+epoch: 4, loss : 5.541 , generator global step : 7249
+epoch: 4, loss : 5.497 , generator global step : 7349
+epoch: 4, loss : 5.414 , generator global step : 7449
+epoch: 4, loss : 5.634 , generator global step : 7549
+epoch: 4, loss : 5.446 , generator global step : 7649
+epoch: 4, loss : 5.512 , generator global step : 7749
+epoch: 5, loss : 5.401 , generator global step : 7811
+epoch: 5, loss : 5.406 , generator global step : 7911
+epoch: 5, loss : 5.743 , generator global step : 8011
+epoch: 5, loss : 5.606 , generator global step : 8111
+epoch: 5, loss : 5.724 , generator global step : 8211
+epoch: 5, loss : 5.286 , generator global step : 8311
+epoch: 5, loss : 5.382 , generator global step : 8411
+epoch: 5, loss : 5.457 , generator global step : 8511
+epoch: 5, loss : 5.422 , generator global step : 8611
+epoch: 5, loss : 5.180 , generator global step : 8711
+epoch: 5, loss : 5.730 , generator global step : 8811
+epoch: 5, loss : 5.265 , generator global step : 8911
+epoch: 5, loss : 5.549 , generator global step : 9011
+epoch: 5, loss : 5.391 , generator global step : 9111
+epoch: 5, loss : 5.469 , generator global step : 9211
+epoch: 5, loss : 5.586 , generator global step : 9311
+epoch: 6, loss : 5.424 , generator global step : 9373
+epoch: 6, loss : 5.689 , generator global step : 9473
+epoch: 6, loss : 5.373 , generator global step : 9573
+epoch: 6, loss : 5.550 , generator global step : 9673
+epoch: 6, loss : 5.408 , generator global step : 9773
+epoch: 6, loss : 5.549 , generator global step : 9873
+epoch: 6, loss : 5.540 , generator global step : 9973
+epoch: 6, loss : 5.485 , generator global step : 10073
+epoch: 6, loss : 5.399 , generator global step : 10173
+epoch: 6, loss : 5.549 , generator global step : 10273
+epoch: 6, loss : 5.493 , generator global step : 10373
+epoch: 6, loss : 5.482 , generator global step : 10473
+epoch: 6, loss : 5.716 , generator global step : 10573
+epoch: 6, loss : 5.409 , generator global step : 10673
+epoch: 6, loss : 5.578 , generator global step : 10773
+epoch: 6, loss : 5.550 , generator global step : 10873
+epoch: 7, loss : 5.378 , generator global step : 10935
+epoch: 7, loss : 5.520 , generator global step : 11035
+epoch: 7, loss : 5.430 , generator global step : 11135
+epoch: 7, loss : 5.262 , generator global step : 11235
+epoch: 7, loss : 5.464 , generator global step : 11335
+epoch: 7, loss : 5.493 , generator global step : 11435
+epoch: 7, loss : 5.625 , generator global step : 11535
+epoch: 7, loss : 5.539 , generator global step : 11635
+epoch: 7, loss : 5.248 , generator global step : 11735
+epoch: 7, loss : 5.422 , generator global step : 11835
+epoch: 7, loss : 5.581 , generator global step : 11935
+epoch: 7, loss : 5.314 , generator global step : 12035
+epoch: 7, loss : 5.667 , generator global step : 12135
+epoch: 7, loss : 5.551 , generator global step : 12235
+epoch: 7, loss : 5.726 , generator global step : 12335
+epoch: 7, loss : 5.381 , generator global step : 12435
+epoch: 8, loss : 5.377 , generator global step : 12497
+epoch: 8, loss : 5.346 , generator global step : 12597
+epoch: 8, loss : 5.588 , generator global step : 12697
+epoch: 8, loss : 5.523 , generator global step : 12797
+epoch: 8, loss : 5.388 , generator global step : 12897
+epoch: 8, loss : 5.545 , generator global step : 12997
+epoch: 8, loss : 5.259 , generator global step : 13097
+epoch: 8, loss : 5.760 , generator global step : 13197
+epoch: 8, loss : 5.553 , generator global step : 13297
+epoch: 8, loss : 5.406 , generator global step : 13397
+epoch: 8, loss : 5.341 , generator global step : 13497
+epoch: 8, loss : 5.387 , generator global step : 13597
+epoch: 8, loss : 5.512 , generator global step : 13697
+epoch: 8, loss : 5.440 , generator global step : 13797
+epoch: 8, loss : 5.342 , generator global step : 13897
+epoch: 8, loss : 5.342 , generator global step : 13997
+epoch: 9, loss : 5.354 , generator global step : 14059
+epoch: 9, loss : 5.422 , generator global step : 14159INFO:tensorflow:seconds for 15000 training generator step: 0.277 
+INFO:tensorflow:loss: 51.546652
+INFO:tensorflow:finished 10 epoches
+INFO:tensorflow:seconds for 16000 training generator step: 0.117 
+INFO:tensorflow:loss: 20.722795
+INFO:tensorflow:seconds for 17000 training generator step: 0.294 
+INFO:tensorflow:loss: 54.672602
+INFO:tensorflow:finished 11 epoches
+INFO:tensorflow:seconds for 18000 training generator step: 0.243 
+INFO:tensorflow:loss: 44.612246
+INFO:tensorflow:finished 12 epoches
+INFO:tensorflow:seconds for 19000 training generator step: 0.070 
+INFO:tensorflow:loss: 13.937813
+INFO:tensorflow:seconds for 20000 training generator step: 0.293 
+INFO:tensorflow:loss: 54.535584
+INFO:tensorflow:finished 13 epoches
+INFO:tensorflow:seconds for 21000 training generator step: 0.540 
+INFO:tensorflow:loss: 37.773391
+INFO:tensorflow:finished 14 epoches
+INFO:tensorflow:seconds for 22000 training generator step: 0.040 
+INFO:tensorflow:loss: 7.165479
+INFO:tensorflow:seconds for 23000 training generator step: 0.287 
+INFO:tensorflow:loss: 54.376901
+INFO:tensorflow:finished 15 epoches
+INFO:tensorflow:seconds for 24000 training generator step: 0.174 
+INFO:tensorflow:loss: 30.915238
+INFO:tensorflow:finished 16 epoches
+INFO:tensorflow:seconds for 25000 training generator step: 0.002 
+INFO:tensorflow:loss: 0.432965
+INFO:tensorflow:seconds for 26000 training generator step: 0.289 
+INFO:tensorflow:loss: 54.272670
+INFO:tensorflow:finished 17 epoches
+INFO:tensorflow:seconds for 27000 training generator step: 0.133 
+INFO:tensorflow:loss: 24.158455
+INFO:tensorflow:seconds for 28000 training generator step: 0.291 
+INFO:tensorflow:loss: 54.244571
+INFO:tensorflow:finished 18 epoches
+
+epoch: 9, loss : 5.592 , generator global step : 14259
+epoch: 9, loss : 5.455 , generator global step : 14359
+epoch: 9, loss : 5.571 , generator global step : 14459
+epoch: 9, loss : 5.401 , generator global step : 14559
+epoch: 9, loss : 5.408 , generator global step : 14659
+epoch: 9, loss : 5.552 , generator global step : 14759
+epoch: 9, loss : 5.581 , generator global step : 14859
+epoch: 9, loss : 5.438 , generator global step : 14959
+epoch: 9, loss : 5.357 , generator global step : 15059
+epoch: 9, loss : 5.503 , generator global step : 15159
+epoch: 9, loss : 5.528 , generator global step : 15259
+epoch: 9, loss : 5.581 , generator global step : 15359
+epoch: 9, loss : 5.508 , generator global step : 15459
+epoch: 9, loss : 5.514 , generator global step : 15559
+epoch: 10, loss : 5.588 , generator global step : 15621
+epoch: 10, loss : 5.311 , generator global step : 15721
+epoch: 10, loss : 5.609 , generator global step : 15821
+epoch: 10, loss : 5.375 , generator global step : 15921
+epoch: 10, loss : 5.505 , generator global step : 16021
+epoch: 10, loss : 5.656 , generator global step : 16121
+epoch: 10, loss : 5.343 , generator global step : 16221
+epoch: 10, loss : 5.483 , generator global step : 16321
+epoch: 10, loss : 5.307 , generator global step : 16421
+epoch: 10, loss : 5.580 , generator global step : 16521
+epoch: 10, loss : 5.609 , generator global step : 16621
+epoch: 10, loss : 5.456 , generator global step : 16721
+epoch: 10, loss : 5.521 , generator global step : 16821
+epoch: 10, loss : 5.479 , generator global step : 16921
+epoch: 10, loss : 5.527 , generator global step : 17021
+epoch: 10, loss : 5.712 , generator global step : 17121
+epoch: 11, loss : 5.489 , generator global step : 17183
+epoch: 11, loss : 5.336 , generator global step : 17283
+epoch: 11, loss : 5.487 , generator global step : 17383
+epoch: 11, loss : 5.698 , generator global step : 17483
+epoch: 11, loss : 5.203 , generator global step : 17583
+epoch: 11, loss : 5.575 , generator global step : 17683
+epoch: 11, loss : 5.337 , generator global step : 17783
+epoch: 11, loss : 5.381 , generator global step : 17883
+epoch: 11, loss : 5.362 , generator global step : 17983
+epoch: 11, loss : 5.347 , generator global step : 18083
+epoch: 11, loss : 5.694 , generator global step : 18183
+epoch: 11, loss : 5.303 , generator global step : 18283
+epoch: 11, loss : 5.700 , generator global step : 18383
+epoch: 11, loss : 5.474 , generator global step : 18483
+epoch: 11, loss : 5.260 , generator global step : 18583
+epoch: 11, loss : 5.650 , generator global step : 18683
+epoch: 12, loss : 5.504 , generator global step : 18745
+epoch: 12, loss : 5.474 , generator global step : 18845
+epoch: 12, loss : 5.296 , generator global step : 18945
+epoch: 12, loss : 5.271 , generator global step : 19045
+epoch: 12, loss : 5.552 , generator global step : 19145
+epoch: 12, loss : 5.544 , generator global step : 19245
+epoch: 12, loss : 5.312 , generator global step : 19345
+epoch: 12, loss : 5.321 , generator global step : 19445
+epoch: 12, loss : 5.354 , generator global step : 19545
+epoch: 12, loss : 5.367 , generator global step : 19645
+epoch: 12, loss : 5.386 , generator global step : 19745
+epoch: 12, loss : 5.334 , generator global step : 19845
+epoch: 12, loss : 5.619 , generator global step : 19945
+epoch: 12, loss : 5.462 , generator global step : 20045
+epoch: 12, loss : 5.381 , generator global step : 20145
+epoch: 12, loss : 5.580 , generator global step : 20245
+epoch: 13, loss : 5.492 , generator global step : 20307
+epoch: 13, loss : 5.638 , generator global step : 20407
+epoch: 13, loss : 5.555 , generator global step : 20507
+epoch: 13, loss : 5.286 , generator global step : 20607
+epoch: 13, loss : 5.543 , generator global step : 20707
+epoch: 13, loss : 5.477 , generator global step : 20807
+epoch: 13, loss : 5.633 , generator global step : 20907
+epoch: 13, loss : 5.534 , generator global step : 21007
+epoch: 13, loss : 5.505 , generator global step : 21107
+epoch: 13, loss : 5.543 , generator global step : 21207
+epoch: 13, loss : 5.263 , generator global step : 21307
+epoch: 13, loss : 5.562 , generator global step : 21407
+epoch: 13, loss : 5.293 , generator global step : 21507
+epoch: 13, loss : 5.480 , generator global step : 21607
+epoch: 13, loss : 5.508 , generator global step : 21707
+epoch: 13, loss : 5.406 , generator global step : 21807
+epoch: 14, loss : 5.180 , generator global step : 21869
+epoch: 14, loss : 5.336 , generator global step : 21969
+epoch: 14, loss : 5.356 , generator global step : 22069
+epoch: 14, loss : 5.603 , generator global step : 22169
+epoch: 14, loss : 5.562 , generator global step : 22269
+epoch: 14, loss : 5.315 , generator global step : 22369
+epoch: 14, loss : 5.392 , generator global step : 22469
+epoch: 14, loss : 5.695 , generator global step : 22569
+epoch: 14, loss : 5.506 , generator global step : 22669
+epoch: 14, loss : 5.562 , generator global step : 22769
+epoch: 14, loss : 5.489 , generator global step : 22869
+epoch: 14, loss : 5.531 , generator global step : 22969
+epoch: 14, loss : 5.448 , generator global step : 23069
+epoch: 14, loss : 5.404 , generator global step : 23169
+epoch: 14, loss : 5.426 , generator global step : 23269
+epoch: 14, loss : 5.393 , generator global step : 23369
+epoch: 15, loss : 5.180 , generator global step : 23431
+epoch: 15, loss : 5.504 , generator global step : 23531
+epoch: 15, loss : 5.586 , generator global step : 23631
+epoch: 15, loss : 5.325 , generator global step : 23731
+epoch: 15, loss : 5.444 , generator global step : 23831
+epoch: 15, loss : 5.440 , generator global step : 23931
+epoch: 15, loss : 5.542 , generator global step : 24031
+epoch: 15, loss : 5.548 , generator global step : 24131
+epoch: 15, loss : 5.522 , generator global step : 24231
+epoch: 15, loss : 5.604 , generator global step : 24331
+epoch: 15, loss : 5.479 , generator global step : 24431
+epoch: 15, loss : 5.549 , generator global step : 24531
+epoch: 15, loss : 5.522 , generator global step : 24631
+epoch: 15, loss : 5.404 , generator global step : 24731
+epoch: 15, loss : 5.517 , generator global step : 24831
+epoch: 15, loss : 5.551 , generator global step : 24931
+epoch: 16, loss : 5.354 , generator global step : 24993
+epoch: 16, loss : 5.678 , generator global step : 25093
+epoch: 16, loss : 5.443 , generator global step : 25193
+epoch: 16, loss : 5.415 , generator global step : 25293
+epoch: 16, loss : 5.375 , generator global step : 25393
+epoch: 16, loss : 5.445 , generator global step : 25493
+epoch: 16, loss : 5.570 , generator global step : 25593
+epoch: 16, loss : 5.414 , generator global step : 25693
+epoch: 16, loss : 5.303 , generator global step : 25793
+epoch: 16, loss : 5.419 , generator global step : 25893
+epoch: 16, loss : 5.257 , generator global step : 25993
+epoch: 16, loss : 5.530 , generator global step : 26093
+epoch: 16, loss : 5.455 , generator global step : 26193
+epoch: 16, loss : 5.467 , generator global step : 26293
+epoch: 16, loss : 5.414 , generator global step : 26393
+epoch: 16, loss : 5.174 , generator global step : 26493
+epoch: 17, loss : 5.582 , generator global step : 26555
+epoch: 17, loss : 5.438 , generator global step : 26655
+epoch: 17, loss : 5.216 , generator global step : 26755
+epoch: 17, loss : 5.417 , generator global step : 26855
+epoch: 17, loss : 5.220 , generator global step : 26955
+epoch: 17, loss : 5.363 , generator global step : 27055
+epoch: 17, loss : 5.336 , generator global step : 27155
+epoch: 17, loss : 5.354 , generator global step : 27255
+epoch: 17, loss : 5.616 , generator global step : 27355
+epoch: 17, loss : 5.466 , generator global step : 27455
+epoch: 17, loss : 5.263 , generator global step : 27555
+epoch: 17, loss : 5.319 , generator global step : 27655
+epoch: 17, loss : 5.561 , generator global step : 27755
+epoch: 17, loss : 5.378 , generator global step : 27855
+epoch: 17, loss : 5.507 , generator global step : 27955
+epoch: 17, loss : 5.501 , generator global step : 28055
+epoch: 18, loss : 5.395 , generator global step : 28117
+epoch: 18, loss : 5.339 , generator global step : 28217
+epoch: 18, loss : 5.411 , generator global step : 28317
+epoch: 18, loss : 5.410 , generator global step : 28417
+epoch: 18, loss : 5.191 , generator global step : 28517INFO:tensorflow:seconds for 29000 training generator step: 0.258 
+INFO:tensorflow:loss: 47.865020
+INFO:tensorflow:finished 19 epoches
+INFO:tensorflow:seconds for 30000 training generator step: 0.092 
+INFO:tensorflow:loss: 17.392005
+INFO:tensorflow:seconds for 31000 training generator step: 0.286 
+INFO:tensorflow:loss: 54.116652
+INFO:tensorflow:finished 20 epoches
+INFO:tensorflow:seconds for 32000 training generator step: 0.218 
+INFO:tensorflow:loss: 41.021714
+INFO:tensorflow:finished 21 epoches
+INFO:tensorflow:seconds for 33000 training generator step: 0.044 
+INFO:tensorflow:loss: 10.650882
+INFO:tensorflow:seconds for 34000 training generator step: 0.288 
+INFO:tensorflow:loss: 53.922036
+INFO:tensorflow:finished 22 epoches
+INFO:tensorflow:seconds for 35000 training generator step: 0.181 
+INFO:tensorflow:loss: 34.190042
+INFO:tensorflow:finished 23 epoches
+INFO:tensorflow:seconds for 36000 training generator step: 0.025 
+INFO:tensorflow:loss: 3.969836
+INFO:tensorflow:seconds for 37000 training generator step: 0.337 
+INFO:tensorflow:loss: 53.709384
+INFO:tensorflow:finished 24 epoches
+INFO:tensorflow:seconds for 38000 training generator step: 0.151 
+INFO:tensorflow:loss: 27.416175
+INFO:tensorflow:seconds for 39000 training generator step: 0.308 
+INFO:tensorflow:loss: 53.694686
+INFO:tensorflow:finished 25 epoches
+INFO:tensorflow:seconds for 40000 training generator step: 0.305 
+INFO:tensorflow:loss: 50.813155
+INFO:tensorflow:finished 26 epoches
+INFO:tensorflow:seconds for 41000 training generator step: 0.119 
+INFO:tensorflow:loss: 20.668487
+INFO:tensorflow:seconds for 42000 training generator step: 0.307 
+INFO:tensorflow:loss: 53.459741
+INFO:tensorflow:finished 27 epoches
+
+epoch: 18, loss : 5.286 , generator global step : 28617
+epoch: 18, loss : 5.459 , generator global step : 28717
+epoch: 18, loss : 5.470 , generator global step : 28817
+epoch: 18, loss : 5.473 , generator global step : 28917
+epoch: 18, loss : 5.539 , generator global step : 29017
+epoch: 18, loss : 5.549 , generator global step : 29117
+epoch: 18, loss : 5.464 , generator global step : 29217
+epoch: 18, loss : 5.326 , generator global step : 29317
+epoch: 18, loss : 5.439 , generator global step : 29417
+epoch: 18, loss : 5.524 , generator global step : 29517
+epoch: 18, loss : 5.313 , generator global step : 29617
+epoch: 19, loss : 5.137 , generator global step : 29679
+epoch: 19, loss : 5.478 , generator global step : 29779
+epoch: 19, loss : 5.512 , generator global step : 29879
+epoch: 19, loss : 5.553 , generator global step : 29979
+epoch: 19, loss : 5.593 , generator global step : 30079
+epoch: 19, loss : 5.516 , generator global step : 30179
+epoch: 19, loss : 5.343 , generator global step : 30279
+epoch: 19, loss : 5.467 , generator global step : 30379
+epoch: 19, loss : 5.345 , generator global step : 30479
+epoch: 19, loss : 5.233 , generator global step : 30579
+epoch: 19, loss : 5.371 , generator global step : 30679
+epoch: 19, loss : 5.368 , generator global step : 30779
+epoch: 19, loss : 5.057 , generator global step : 30879
+epoch: 19, loss : 5.470 , generator global step : 30979
+epoch: 19, loss : 5.145 , generator global step : 31079
+epoch: 19, loss : 5.343 , generator global step : 31179
+epoch: 20, loss : 5.590 , generator global step : 31241
+epoch: 20, loss : 5.594 , generator global step : 31341
+epoch: 20, loss : 5.372 , generator global step : 31441
+epoch: 20, loss : 5.489 , generator global step : 31541
+epoch: 20, loss : 5.610 , generator global step : 31641
+epoch: 20, loss : 5.411 , generator global step : 31741
+epoch: 20, loss : 5.568 , generator global step : 31841
+epoch: 20, loss : 5.387 , generator global step : 31941
+epoch: 20, loss : 5.710 , generator global step : 32041
+epoch: 20, loss : 5.660 , generator global step : 32141
+epoch: 20, loss : 5.578 , generator global step : 32241
+epoch: 20, loss : 5.490 , generator global step : 32341
+epoch: 20, loss : 5.290 , generator global step : 32441
+epoch: 20, loss : 5.633 , generator global step : 32541
+epoch: 20, loss : 5.538 , generator global step : 32641
+epoch: 20, loss : 5.515 , generator global step : 32741
+epoch: 21, loss : 5.534 , generator global step : 32803
+epoch: 21, loss : 5.420 , generator global step : 32903
+epoch: 21, loss : 5.302 , generator global step : 33003
+epoch: 21, loss : 5.308 , generator global step : 33103
+epoch: 21, loss : 5.438 , generator global step : 33203
+epoch: 21, loss : 5.392 , generator global step : 33303
+epoch: 21, loss : 5.492 , generator global step : 33403
+epoch: 21, loss : 5.637 , generator global step : 33503
+epoch: 21, loss : 5.317 , generator global step : 33603
+epoch: 21, loss : 5.374 , generator global step : 33703
+epoch: 21, loss : 5.418 , generator global step : 33803
+epoch: 21, loss : 5.389 , generator global step : 33903
+epoch: 21, loss : 5.377 , generator global step : 34003
+epoch: 21, loss : 5.408 , generator global step : 34103
+epoch: 21, loss : 5.559 , generator global step : 34203
+epoch: 21, loss : 5.390 , generator global step : 34303
+epoch: 22, loss : 5.138 , generator global step : 34365
+epoch: 22, loss : 5.195 , generator global step : 34465
+epoch: 22, loss : 5.427 , generator global step : 34565
+epoch: 22, loss : 5.348 , generator global step : 34665
+epoch: 22, loss : 5.599 , generator global step : 34765
+epoch: 22, loss : 5.224 , generator global step : 34865
+epoch: 22, loss : 5.359 , generator global step : 34965
+epoch: 22, loss : 5.223 , generator global step : 35065
+epoch: 22, loss : 5.293 , generator global step : 35165
+epoch: 22, loss : 5.527 , generator global step : 35265
+epoch: 22, loss : 5.387 , generator global step : 35365
+epoch: 22, loss : 5.392 , generator global step : 35465
+epoch: 22, loss : 5.365 , generator global step : 35565
+epoch: 22, loss : 5.332 , generator global step : 35665
+epoch: 22, loss : 5.482 , generator global step : 35765
+epoch: 22, loss : 5.341 , generator global step : 35865
+epoch: 23, loss : 5.283 , generator global step : 35927
+epoch: 23, loss : 5.409 , generator global step : 36027
+epoch: 23, loss : 5.156 , generator global step : 36127
+epoch: 23, loss : 5.351 , generator global step : 36227
+epoch: 23, loss : 5.438 , generator global step : 36327
+epoch: 23, loss : 5.410 , generator global step : 36427
+epoch: 23, loss : 5.264 , generator global step : 36527
+epoch: 23, loss : 5.317 , generator global step : 36627
+epoch: 23, loss : 5.406 , generator global step : 36727
+epoch: 23, loss : 5.410 , generator global step : 36827
+epoch: 23, loss : 5.389 , generator global step : 36927
+epoch: 23, loss : 5.352 , generator global step : 37027
+epoch: 23, loss : 5.404 , generator global step : 37127
+epoch: 23, loss : 5.476 , generator global step : 37227
+epoch: 23, loss : 5.442 , generator global step : 37327
+epoch: 23, loss : 5.401 , generator global step : 37427
+epoch: 24, loss : 5.293 , generator global step : 37489
+epoch: 24, loss : 5.402 , generator global step : 37589
+epoch: 24, loss : 5.140 , generator global step : 37689
+epoch: 24, loss : 5.393 , generator global step : 37789
+epoch: 24, loss : 5.382 , generator global step : 37889
+epoch: 24, loss : 5.368 , generator global step : 37989
+epoch: 24, loss : 5.545 , generator global step : 38089
+epoch: 24, loss : 5.453 , generator global step : 38189
+epoch: 24, loss : 5.357 , generator global step : 38289
+epoch: 24, loss : 5.461 , generator global step : 38389
+epoch: 24, loss : 5.345 , generator global step : 38489
+epoch: 24, loss : 5.283 , generator global step : 38589
+epoch: 24, loss : 5.460 , generator global step : 38689
+epoch: 24, loss : 5.318 , generator global step : 38789
+epoch: 24, loss : 5.322 , generator global step : 38889
+epoch: 24, loss : 5.330 , generator global step : 38989
+epoch: 25, loss : 5.193 , generator global step : 39051
+epoch: 25, loss : 5.390 , generator global step : 39151
+epoch: 25, loss : 5.361 , generator global step : 39251
+epoch: 25, loss : 5.320 , generator global step : 39351
+epoch: 25, loss : 5.435 , generator global step : 39451
+epoch: 25, loss : 5.363 , generator global step : 39551
+epoch: 25, loss : 5.395 , generator global step : 39651
+epoch: 25, loss : 5.401 , generator global step : 39751
+epoch: 25, loss : 5.289 , generator global step : 39851
+epoch: 25, loss : 5.329 , generator global step : 39951
+epoch: 25, loss : 5.120 , generator global step : 40051
+epoch: 25, loss : 5.502 , generator global step : 40151
+epoch: 25, loss : 5.020 , generator global step : 40251
+epoch: 25, loss : 5.452 , generator global step : 40351
+epoch: 25, loss : 5.222 , generator global step : 40451
+epoch: 25, loss : 5.477 , generator global step : 40551
+epoch: 26, loss : 5.447 , generator global step : 40613
+epoch: 26, loss : 5.300 , generator global step : 40713
+epoch: 26, loss : 5.290 , generator global step : 40813
+epoch: 26, loss : 5.134 , generator global step : 40913
+epoch: 26, loss : 5.325 , generator global step : 41013
+epoch: 26, loss : 5.532 , generator global step : 41113
+epoch: 26, loss : 5.535 , generator global step : 41213
+epoch: 26, loss : 5.264 , generator global step : 41313
+epoch: 26, loss : 5.337 , generator global step : 41413
+epoch: 26, loss : 5.312 , generator global step : 41513
+epoch: 26, loss : 5.294 , generator global step : 41613
+epoch: 26, loss : 5.444 , generator global step : 41713
+epoch: 26, loss : 4.999 , generator global step : 41813
+epoch: 26, loss : 5.545 , generator global step : 41913
+epoch: 26, loss : 5.444 , generator global step : 42013
+epoch: 26, loss : 5.415 , generator global step : 42113
+epoch: 27, loss : 5.178 , generator global step : 42175
+epoch: 27, loss : 5.234 , generator global step : 42275
+epoch: 27, loss : 5.218 , generator global step : 42375
+epoch: 27, loss : 5.351 , generator global step : 42475
+epoch: 27, loss : 5.248 , generator global step : 42575
+epoch: 27, loss : 5.325 , generator global step : 42675
+epoch: 27, loss : 5.267 , generator global step : 42775
+epoch: 27, loss : 5.399 , generator global step : 42875INFO:tensorflow:seconds for 43000 training generator step: 0.266 
+INFO:tensorflow:loss: 44.010371
+INFO:tensorflow:finished 28 epoches
+INFO:tensorflow:seconds for 44000 training generator step: 0.088 
+INFO:tensorflow:loss: 13.990105
+INFO:tensorflow:seconds for 45000 training generator step: 0.331 
+INFO:tensorflow:loss: 53.169867
+INFO:tensorflow:finished 29 epoches
+INFO:tensorflow:seconds for 46000 training generator step: 0.232 
+INFO:tensorflow:loss: 37.149486
+INFO:tensorflow:finished 30 epoches
+INFO:tensorflow:seconds for 47000 training generator step: 0.030 
+INFO:tensorflow:loss: 7.385133
+INFO:tensorflow:seconds for 48000 training generator step: 0.285 
+INFO:tensorflow:loss: 52.854252
+INFO:tensorflow:finished 31 epoches
+INFO:tensorflow:seconds for 49000 training generator step: 0.157 
+INFO:tensorflow:loss: 30.402287
+INFO:tensorflow:finished 32 epoches
+INFO:tensorflow:seconds for 50000 training generator step: 0.004 
+INFO:tensorflow:loss: 0.834358
+INFO:tensorflow:seconds for 51000 training generator step: 0.289 
+INFO:tensorflow:loss: 52.498267
+INFO:tensorflow:finished 33 epoches
+INFO:tensorflow:seconds for 52000 training generator step: 0.120 
+INFO:tensorflow:loss: 23.678548
+INFO:tensorflow:seconds for 53000 training generator step: 0.290 
+INFO:tensorflow:loss: 52.442707
+INFO:tensorflow:finished 34 epoches
+INFO:tensorflow:seconds for 54000 training generator step: 0.251 
+INFO:tensorflow:loss: 46.484305
+INFO:tensorflow:finished 35 epoches
+INFO:tensorflow:seconds for 55000 training generator step: 0.092 
+INFO:tensorflow:loss: 17.060476
+INFO:tensorflow:seconds for 56000 training generator step: 0.289 
+INFO:tensorflow:loss: 52.020875
+INFO:tensorflow:finished 36 epoches
+INFO:tensorflow:seconds for 57000 training generator step: 0.215 
+INFO:tensorflow:loss: 39.668583
+
+epoch: 27, loss : 5.320 , generator global step : 42975
+epoch: 27, loss : 5.170 , generator global step : 43075
+epoch: 27, loss : 5.110 , generator global step : 43175
+epoch: 27, loss : 5.397 , generator global step : 43275
+epoch: 27, loss : 5.288 , generator global step : 43375
+epoch: 27, loss : 5.219 , generator global step : 43475
+epoch: 27, loss : 5.379 , generator global step : 43575
+epoch: 27, loss : 5.279 , generator global step : 43675
+epoch: 28, loss : 5.411 , generator global step : 43737
+epoch: 28, loss : 5.331 , generator global step : 43837
+epoch: 28, loss : 5.180 , generator global step : 43937
+epoch: 28, loss : 5.284 , generator global step : 44037
+epoch: 28, loss : 5.409 , generator global step : 44137
+epoch: 28, loss : 5.138 , generator global step : 44237
+epoch: 28, loss : 5.262 , generator global step : 44337
+epoch: 28, loss : 5.355 , generator global step : 44437
+epoch: 28, loss : 5.362 , generator global step : 44537
+epoch: 28, loss : 5.258 , generator global step : 44637
+epoch: 28, loss : 5.320 , generator global step : 44737
+epoch: 28, loss : 5.272 , generator global step : 44837
+epoch: 28, loss : 5.334 , generator global step : 44937
+epoch: 28, loss : 5.320 , generator global step : 45037
+epoch: 28, loss : 5.307 , generator global step : 45137
+epoch: 28, loss : 5.275 , generator global step : 45237
+epoch: 29, loss : 5.257 , generator global step : 45299
+epoch: 29, loss : 5.243 , generator global step : 45399
+epoch: 29, loss : 5.440 , generator global step : 45499
+epoch: 29, loss : 5.495 , generator global step : 45599
+epoch: 29, loss : 5.305 , generator global step : 45699
+epoch: 29, loss : 5.371 , generator global step : 45799
+epoch: 29, loss : 5.266 , generator global step : 45899
+epoch: 29, loss : 5.059 , generator global step : 45999
+epoch: 29, loss : 5.342 , generator global step : 46099
+epoch: 29, loss : 5.169 , generator global step : 46199
+epoch: 29, loss : 5.261 , generator global step : 46299
+epoch: 29, loss : 5.292 , generator global step : 46399
+epoch: 29, loss : 5.322 , generator global step : 46499
+epoch: 29, loss : 5.239 , generator global step : 46599
+epoch: 29, loss : 5.280 , generator global step : 46699
+epoch: 29, loss : 5.367 , generator global step : 46799
+epoch: 30, loss : 5.325 , generator global step : 46861
+epoch: 30, loss : 5.118 , generator global step : 46961
+epoch: 30, loss : 5.245 , generator global step : 47061
+epoch: 30, loss : 5.441 , generator global step : 47161
+epoch: 30, loss : 5.217 , generator global step : 47261
+epoch: 30, loss : 5.404 , generator global step : 47361
+epoch: 30, loss : 5.401 , generator global step : 47461
+epoch: 30, loss : 5.474 , generator global step : 47561
+epoch: 30, loss : 5.360 , generator global step : 47661
+epoch: 30, loss : 5.224 , generator global step : 47761
+epoch: 30, loss : 5.238 , generator global step : 47861
+epoch: 30, loss : 5.255 , generator global step : 47961
+epoch: 30, loss : 5.299 , generator global step : 48061
+epoch: 30, loss : 5.444 , generator global step : 48161
+epoch: 30, loss : 5.147 , generator global step : 48261
+epoch: 30, loss : 5.264 , generator global step : 48361
+epoch: 31, loss : 5.429 , generator global step : 48423
+epoch: 31, loss : 5.358 , generator global step : 48523
+epoch: 31, loss : 5.333 , generator global step : 48623
+epoch: 31, loss : 5.327 , generator global step : 48723
+epoch: 31, loss : 5.003 , generator global step : 48823
+epoch: 31, loss : 5.398 , generator global step : 48923
+epoch: 31, loss : 5.306 , generator global step : 49023
+epoch: 31, loss : 5.212 , generator global step : 49123
+epoch: 31, loss : 5.109 , generator global step : 49223
+epoch: 31, loss : 5.286 , generator global step : 49323
+epoch: 31, loss : 5.315 , generator global step : 49423
+epoch: 31, loss : 5.210 , generator global step : 49523
+epoch: 31, loss : 5.273 , generator global step : 49623
+epoch: 31, loss : 5.075 , generator global step : 49723
+epoch: 31, loss : 5.154 , generator global step : 49823
+epoch: 31, loss : 5.404 , generator global step : 49923
+epoch: 32, loss : 5.287 , generator global step : 49985
+epoch: 32, loss : 5.041 , generator global step : 50085
+epoch: 32, loss : 5.433 , generator global step : 50185
+epoch: 32, loss : 5.310 , generator global step : 50285
+epoch: 32, loss : 5.099 , generator global step : 50385
+epoch: 32, loss : 5.431 , generator global step : 50485
+epoch: 32, loss : 5.386 , generator global step : 50585
+epoch: 32, loss : 5.333 , generator global step : 50685
+epoch: 32, loss : 5.461 , generator global step : 50785
+epoch: 32, loss : 5.266 , generator global step : 50885
+epoch: 32, loss : 5.363 , generator global step : 50985
+epoch: 32, loss : 4.979 , generator global step : 51085
+epoch: 32, loss : 5.202 , generator global step : 51185
+epoch: 32, loss : 5.346 , generator global step : 51285
+epoch: 32, loss : 5.224 , generator global step : 51385
+epoch: 32, loss : 5.120 , generator global step : 51485
+epoch: 33, loss : 5.223 , generator global step : 51547
+epoch: 33, loss : 5.270 , generator global step : 51647
+epoch: 33, loss : 4.956 , generator global step : 51747
+epoch: 33, loss : 5.114 , generator global step : 51847
+epoch: 33, loss : 5.437 , generator global step : 51947
+epoch: 33, loss : 4.942 , generator global step : 52047
+epoch: 33, loss : 5.335 , generator global step : 52147
+epoch: 33, loss : 5.305 , generator global step : 52247
+epoch: 33, loss : 5.185 , generator global step : 52347
+epoch: 33, loss : 5.271 , generator global step : 52447
+epoch: 33, loss : 5.269 , generator global step : 52547
+epoch: 33, loss : 5.214 , generator global step : 52647
+epoch: 33, loss : 5.310 , generator global step : 52747
+epoch: 33, loss : 5.075 , generator global step : 52847
+epoch: 33, loss : 5.383 , generator global step : 52947
+epoch: 33, loss : 5.030 , generator global step : 53047
+epoch: 34, loss : 4.948 , generator global step : 53109
+epoch: 34, loss : 5.247 , generator global step : 53209
+epoch: 34, loss : 4.956 , generator global step : 53309
+epoch: 34, loss : 5.247 , generator global step : 53409
+epoch: 34, loss : 5.399 , generator global step : 53509
+epoch: 34, loss : 5.135 , generator global step : 53609
+epoch: 34, loss : 5.270 , generator global step : 53709
+epoch: 34, loss : 5.261 , generator global step : 53809
+epoch: 34, loss : 5.333 , generator global step : 53909
+epoch: 34, loss : 5.316 , generator global step : 54009
+epoch: 34, loss : 5.345 , generator global step : 54109
+epoch: 34, loss : 5.169 , generator global step : 54209
+epoch: 34, loss : 5.281 , generator global step : 54309
+epoch: 34, loss : 5.132 , generator global step : 54409
+epoch: 34, loss : 5.383 , generator global step : 54509
+epoch: 34, loss : 5.088 , generator global step : 54609
+epoch: 35, loss : 5.166 , generator global step : 54671
+epoch: 35, loss : 5.197 , generator global step : 54771
+epoch: 35, loss : 5.271 , generator global step : 54871
+epoch: 35, loss : 5.314 , generator global step : 54971
+epoch: 35, loss : 5.178 , generator global step : 55071
+epoch: 35, loss : 5.261 , generator global step : 55171
+epoch: 35, loss : 5.223 , generator global step : 55271
+epoch: 35, loss : 5.163 , generator global step : 55371
+epoch: 35, loss : 5.280 , generator global step : 55471
+epoch: 35, loss : 5.244 , generator global step : 55571
+epoch: 35, loss : 5.266 , generator global step : 55671
+epoch: 35, loss : 5.107 , generator global step : 55771
+epoch: 35, loss : 5.124 , generator global step : 55871
+epoch: 35, loss : 5.135 , generator global step : 55971
+epoch: 35, loss : 5.087 , generator global step : 56071
+epoch: 35, loss : 5.546 , generator global step : 56171
+epoch: 36, loss : 5.198 , generator global step : 56233
+epoch: 36, loss : 5.315 , generator global step : 56333
+epoch: 36, loss : 5.177 , generator global step : 56433
+epoch: 36, loss : 5.373 , generator global step : 56533
+epoch: 36, loss : 5.020 , generator global step : 56633
+epoch: 36, loss : 5.122 , generator global step : 56733
+epoch: 36, loss : 5.281 , generator global step : 56833
+epoch: 36, loss : 5.268 , generator global step : 56933
+epoch: 36, loss : 5.059 , generator global step : 57033
+epoch: 36, loss : 5.165 , generator global step : 57133
+epoch: 36, loss : 4.987 , generator global step : 57233INFO:tensorflow:finished 37 epoches
+INFO:tensorflow:seconds for 58000 training generator step: 0.061 
+INFO:tensorflow:loss: 10.566933
+INFO:tensorflow:seconds for 59000 training generator step: 0.320 
+INFO:tensorflow:loss: 51.598059
+INFO:tensorflow:finished 38 epoches
+INFO:tensorflow:seconds for 60000 training generator step: 0.212 
+INFO:tensorflow:loss: 33.003563
+INFO:tensorflow:finished 39 epoches
+INFO:tensorflow:seconds for 61000 training generator step: 0.029 
+INFO:tensorflow:loss: 4.181422
+INFO:tensorflow:seconds for 62000 training generator step: 0.330 
+INFO:tensorflow:loss: 51.094915
+INFO:tensorflow:finished 40 epoches
+INFO:tensorflow:seconds for 63000 training generator step: 0.156 
+INFO:tensorflow:loss: 26.430327
+INFO:tensorflow:seconds for 64000 training generator step: 0.289 
+INFO:tensorflow:loss: 50.983586
+INFO:tensorflow:finished 41 epoches
+INFO:tensorflow:seconds for 65000 training generator step: 0.272 
+INFO:tensorflow:loss: 48.517521
+INFO:tensorflow:finished 42 epoches
+INFO:tensorflow:seconds for 66000 training generator step: 0.120 
+INFO:tensorflow:loss: 19.885651
+INFO:tensorflow:seconds for 67000 training generator step: 0.287 
+INFO:tensorflow:loss: 50.597568
+INFO:tensorflow:finished 43 epoches
+INFO:tensorflow:seconds for 68000 training generator step: 0.245 
+INFO:tensorflow:loss: 41.824117
+INFO:tensorflow:finished 44 epoches
+INFO:tensorflow:seconds for 69000 training generator step: 0.068 
+INFO:tensorflow:loss: 13.528676
+INFO:tensorflow:seconds for 70000 training generator step: 0.289 
+INFO:tensorflow:loss: 50.058616
+INFO:tensorflow:finished 45 epoches
+INFO:tensorflow:seconds for 71000 training generator step: 0.198 
+INFO:tensorflow:loss: 35.288035
+
+epoch: 36, loss : 5.096 , generator global step : 57333
+epoch: 36, loss : 4.991 , generator global step : 57433
+epoch: 36, loss : 5.323 , generator global step : 57533
+epoch: 36, loss : 5.161 , generator global step : 57633
+epoch: 36, loss : 5.286 , generator global step : 57733
+epoch: 37, loss : 5.445 , generator global step : 57795
+epoch: 37, loss : 5.131 , generator global step : 57895
+epoch: 37, loss : 5.202 , generator global step : 57995
+epoch: 37, loss : 4.951 , generator global step : 58095
+epoch: 37, loss : 5.201 , generator global step : 58195
+epoch: 37, loss : 4.931 , generator global step : 58295
+epoch: 37, loss : 5.104 , generator global step : 58395
+epoch: 37, loss : 5.135 , generator global step : 58495
+epoch: 37, loss : 5.204 , generator global step : 58595
+epoch: 37, loss : 5.203 , generator global step : 58695
+epoch: 37, loss : 5.382 , generator global step : 58795
+epoch: 37, loss : 5.216 , generator global step : 58895
+epoch: 37, loss : 5.155 , generator global step : 58995
+epoch: 37, loss : 5.263 , generator global step : 59095
+epoch: 37, loss : 5.212 , generator global step : 59195
+epoch: 37, loss : 5.043 , generator global step : 59295
+epoch: 38, loss : 5.014 , generator global step : 59357
+epoch: 38, loss : 5.098 , generator global step : 59457
+epoch: 38, loss : 5.286 , generator global step : 59557
+epoch: 38, loss : 4.843 , generator global step : 59657
+epoch: 38, loss : 5.260 , generator global step : 59757
+epoch: 38, loss : 5.066 , generator global step : 59857
+epoch: 38, loss : 5.131 , generator global step : 59957
+epoch: 38, loss : 5.254 , generator global step : 60057
+epoch: 38, loss : 5.062 , generator global step : 60157
+epoch: 38, loss : 5.367 , generator global step : 60257
+epoch: 38, loss : 5.233 , generator global step : 60357
+epoch: 38, loss : 5.194 , generator global step : 60457
+epoch: 38, loss : 5.159 , generator global step : 60557
+epoch: 38, loss : 5.090 , generator global step : 60657
+epoch: 38, loss : 5.358 , generator global step : 60757
+epoch: 38, loss : 5.171 , generator global step : 60857
+epoch: 39, loss : 5.032 , generator global step : 60919
+epoch: 39, loss : 4.921 , generator global step : 61019
+epoch: 39, loss : 5.191 , generator global step : 61119
+epoch: 39, loss : 4.890 , generator global step : 61219
+epoch: 39, loss : 5.054 , generator global step : 61319
+epoch: 39, loss : 4.988 , generator global step : 61419
+epoch: 39, loss : 5.075 , generator global step : 61519
+epoch: 39, loss : 5.050 , generator global step : 61619
+epoch: 39, loss : 5.215 , generator global step : 61719
+epoch: 39, loss : 5.053 , generator global step : 61819
+epoch: 39, loss : 5.142 , generator global step : 61919
+epoch: 39, loss : 5.254 , generator global step : 62019
+epoch: 39, loss : 4.961 , generator global step : 62119
+epoch: 39, loss : 5.078 , generator global step : 62219
+epoch: 39, loss : 5.093 , generator global step : 62319
+epoch: 39, loss : 5.316 , generator global step : 62419
+epoch: 40, loss : 5.070 , generator global step : 62481
+epoch: 40, loss : 5.154 , generator global step : 62581
+epoch: 40, loss : 5.018 , generator global step : 62681
+epoch: 40, loss : 5.176 , generator global step : 62781
+epoch: 40, loss : 5.136 , generator global step : 62881
+epoch: 40, loss : 5.181 , generator global step : 62981
+epoch: 40, loss : 5.181 , generator global step : 63081
+epoch: 40, loss : 5.136 , generator global step : 63181
+epoch: 40, loss : 5.222 , generator global step : 63281
+epoch: 40, loss : 5.159 , generator global step : 63381
+epoch: 40, loss : 5.353 , generator global step : 63481
+epoch: 40, loss : 4.898 , generator global step : 63581
+epoch: 40, loss : 5.045 , generator global step : 63681
+epoch: 40, loss : 5.051 , generator global step : 63781
+epoch: 40, loss : 5.010 , generator global step : 63881
+epoch: 40, loss : 5.233 , generator global step : 63981
+epoch: 41, loss : 5.018 , generator global step : 64043
+epoch: 41, loss : 5.020 , generator global step : 64143
+epoch: 41, loss : 5.018 , generator global step : 64243
+epoch: 41, loss : 5.193 , generator global step : 64343
+epoch: 41, loss : 4.993 , generator global step : 64443
+epoch: 41, loss : 5.160 , generator global step : 64543
+epoch: 41, loss : 5.124 , generator global step : 64643
+epoch: 41, loss : 5.244 , generator global step : 64743
+epoch: 41, loss : 5.109 , generator global step : 64843
+epoch: 41, loss : 5.050 , generator global step : 64943
+epoch: 41, loss : 5.093 , generator global step : 65043
+epoch: 41, loss : 5.005 , generator global step : 65143
+epoch: 41, loss : 5.168 , generator global step : 65243
+epoch: 41, loss : 5.334 , generator global step : 65343
+epoch: 41, loss : 5.164 , generator global step : 65443
+epoch: 41, loss : 5.147 , generator global step : 65543
+epoch: 42, loss : 5.111 , generator global step : 65605
+epoch: 42, loss : 5.152 , generator global step : 65705
+epoch: 42, loss : 4.959 , generator global step : 65805
+epoch: 42, loss : 5.135 , generator global step : 65905
+epoch: 42, loss : 5.030 , generator global step : 66005
+epoch: 42, loss : 5.114 , generator global step : 66105
+epoch: 42, loss : 5.053 , generator global step : 66205
+epoch: 42, loss : 4.897 , generator global step : 66305
+epoch: 42, loss : 5.273 , generator global step : 66405
+epoch: 42, loss : 4.953 , generator global step : 66505
+epoch: 42, loss : 4.928 , generator global step : 66605
+epoch: 42, loss : 4.991 , generator global step : 66705
+epoch: 42, loss : 4.996 , generator global step : 66805
+epoch: 42, loss : 5.128 , generator global step : 66905
+epoch: 42, loss : 5.126 , generator global step : 67005
+epoch: 42, loss : 4.913 , generator global step : 67105
+epoch: 43, loss : 5.223 , generator global step : 67167
+epoch: 43, loss : 5.026 , generator global step : 67267
+epoch: 43, loss : 5.159 , generator global step : 67367
+epoch: 43, loss : 5.061 , generator global step : 67467
+epoch: 43, loss : 4.930 , generator global step : 67567
+epoch: 43, loss : 5.101 , generator global step : 67667
+epoch: 43, loss : 5.121 , generator global step : 67767
+epoch: 43, loss : 5.164 , generator global step : 67867
+epoch: 43, loss : 5.105 , generator global step : 67967
+epoch: 43, loss : 5.038 , generator global step : 68067
+epoch: 43, loss : 5.081 , generator global step : 68167
+epoch: 43, loss : 5.225 , generator global step : 68267
+epoch: 43, loss : 5.170 , generator global step : 68367
+epoch: 43, loss : 5.172 , generator global step : 68467
+epoch: 43, loss : 5.069 , generator global step : 68567
+epoch: 43, loss : 5.080 , generator global step : 68667
+epoch: 44, loss : 5.023 , generator global step : 68729
+epoch: 44, loss : 4.721 , generator global step : 68829
+epoch: 44, loss : 4.933 , generator global step : 68929
+epoch: 44, loss : 5.059 , generator global step : 69029
+epoch: 44, loss : 4.854 , generator global step : 69129
+epoch: 44, loss : 4.780 , generator global step : 69229
+epoch: 44, loss : 5.067 , generator global step : 69329
+epoch: 44, loss : 4.896 , generator global step : 69429
+epoch: 44, loss : 4.941 , generator global step : 69529
+epoch: 44, loss : 4.870 , generator global step : 69629
+epoch: 44, loss : 4.926 , generator global step : 69729
+epoch: 44, loss : 5.085 , generator global step : 69829
+epoch: 44, loss : 5.246 , generator global step : 69929
+epoch: 44, loss : 5.092 , generator global step : 70029
+epoch: 44, loss : 4.859 , generator global step : 70129
+epoch: 44, loss : 5.001 , generator global step : 70229
+epoch: 45, loss : 4.914 , generator global step : 70291
+epoch: 45, loss : 4.880 , generator global step : 70391
+epoch: 45, loss : 4.850 , generator global step : 70491
+epoch: 45, loss : 5.120 , generator global step : 70591
+epoch: 45, loss : 4.923 , generator global step : 70691
+epoch: 45, loss : 5.120 , generator global step : 70791
+epoch: 45, loss : 5.050 , generator global step : 70891
+epoch: 45, loss : 4.959 , generator global step : 70991
+epoch: 45, loss : 4.947 , generator global step : 71091
+epoch: 45, loss : 4.984 , generator global step : 71191
+epoch: 45, loss : 5.011 , generator global step : 71291
+epoch: 45, loss : 4.996 , generator global step : 71391
+epoch: 45, loss : 5.021 , generator global step : 71491
+epoch: 45, loss : 4.979 , generator global step : 71591INFO:tensorflow:finished 46 epoches
+INFO:tensorflow:seconds for 72000 training generator step: 0.039 
+INFO:tensorflow:loss: 7.274340
+INFO:tensorflow:seconds for 73000 training generator step: 0.289 
+INFO:tensorflow:loss: 49.508844
+INFO:tensorflow:finished 47 epoches
+INFO:tensorflow:seconds for 74000 training generator step: 0.160 
+INFO:tensorflow:loss: 28.759010
+INFO:tensorflow:finished 48 epoches
+INFO:tensorflow:seconds for 75000 training generator step: 0.007 
+INFO:tensorflow:loss: 1.163518
+INFO:tensorflow:seconds for 76000 training generator step: 0.287 
+INFO:tensorflow:loss: 49.038777
+INFO:tensorflow:finished 49 epoches
+INFO:tensorflow:seconds for 77000 training generator step: 0.123 
+INFO:tensorflow:loss: 22.394897
+INFO:tensorflow:seconds for 78000 training generator step: 0.289 
+INFO:tensorflow:loss: 49.015235
+INFO:tensorflow:finished 50 epoches
+INFO:tensorflow:seconds for 79000 training generator step: 0.254 
+INFO:tensorflow:loss: 43.612740
+INFO:tensorflow:finished 51 epoches
+INFO:tensorflow:seconds for 80000 training generator step: 0.102 
+INFO:tensorflow:loss: 16.236510
+INFO:tensorflow:seconds for 81000 training generator step: 0.288 
+INFO:tensorflow:loss: 48.461944
+INFO:tensorflow:finished 52 epoches
+INFO:tensorflow:seconds for 82000 training generator step: 0.216 
+INFO:tensorflow:loss: 37.187370
+INFO:tensorflow:finished 53 epoches
+INFO:tensorflow:seconds for 83000 training generator step: 0.063 
+INFO:tensorflow:loss: 10.169174
+INFO:tensorflow:seconds for 84000 training generator step: 0.287 
+INFO:tensorflow:loss: 47.886583
+INFO:tensorflow:finished 54 epoches
+INFO:tensorflow:seconds for 85000 training generator step: 0.187 
+INFO:tensorflow:loss: 30.869466
+INFO:tensorflow:finished 55 epoches
+
+epoch: 45, loss : 4.916 , generator global step : 71691
+epoch: 45, loss : 4.942 , generator global step : 71791
+epoch: 46, loss : 4.747 , generator global step : 71853
+epoch: 46, loss : 5.105 , generator global step : 71953
+epoch: 46, loss : 4.837 , generator global step : 72053
+epoch: 46, loss : 4.974 , generator global step : 72153
+epoch: 46, loss : 4.844 , generator global step : 72253
+epoch: 46, loss : 4.803 , generator global step : 72353
+epoch: 46, loss : 5.101 , generator global step : 72453
+epoch: 46, loss : 5.123 , generator global step : 72553
+epoch: 46, loss : 5.111 , generator global step : 72653
+epoch: 46, loss : 4.989 , generator global step : 72753
+epoch: 46, loss : 4.968 , generator global step : 72853
+epoch: 46, loss : 5.020 , generator global step : 72953
+epoch: 46, loss : 5.066 , generator global step : 73053
+epoch: 46, loss : 5.067 , generator global step : 73153
+epoch: 46, loss : 5.010 , generator global step : 73253
+epoch: 46, loss : 4.945 , generator global step : 73353
+epoch: 47, loss : 4.635 , generator global step : 73415
+epoch: 47, loss : 4.875 , generator global step : 73515
+epoch: 47, loss : 4.910 , generator global step : 73615
+epoch: 47, loss : 4.891 , generator global step : 73715
+epoch: 47, loss : 4.876 , generator global step : 73815
+epoch: 47, loss : 4.682 , generator global step : 73915
+epoch: 47, loss : 4.896 , generator global step : 74015
+epoch: 47, loss : 4.927 , generator global step : 74115
+epoch: 47, loss : 5.101 , generator global step : 74215
+epoch: 47, loss : 4.990 , generator global step : 74315
+epoch: 47, loss : 5.077 , generator global step : 74415
+epoch: 47, loss : 5.019 , generator global step : 74515
+epoch: 47, loss : 4.945 , generator global step : 74615
+epoch: 47, loss : 5.153 , generator global step : 74715
+epoch: 47, loss : 4.937 , generator global step : 74815
+epoch: 47, loss : 5.015 , generator global step : 74915
+epoch: 48, loss : 4.944 , generator global step : 74977
+epoch: 48, loss : 5.108 , generator global step : 75077
+epoch: 48, loss : 4.734 , generator global step : 75177
+epoch: 48, loss : 4.983 , generator global step : 75277
+epoch: 48, loss : 5.035 , generator global step : 75377
+epoch: 48, loss : 4.831 , generator global step : 75477
+epoch: 48, loss : 4.879 , generator global step : 75577
+epoch: 48, loss : 4.923 , generator global step : 75677
+epoch: 48, loss : 4.952 , generator global step : 75777
+epoch: 48, loss : 4.980 , generator global step : 75877
+epoch: 48, loss : 4.772 , generator global step : 75977
+epoch: 48, loss : 4.893 , generator global step : 76077
+epoch: 48, loss : 5.168 , generator global step : 76177
+epoch: 48, loss : 4.800 , generator global step : 76277
+epoch: 48, loss : 4.902 , generator global step : 76377
+epoch: 48, loss : 4.960 , generator global step : 76477
+epoch: 49, loss : 4.952 , generator global step : 76539
+epoch: 49, loss : 4.945 , generator global step : 76639
+epoch: 49, loss : 4.967 , generator global step : 76739
+epoch: 49, loss : 4.770 , generator global step : 76839
+epoch: 49, loss : 4.728 , generator global step : 76939
+epoch: 49, loss : 5.020 , generator global step : 77039
+epoch: 49, loss : 4.851 , generator global step : 77139
+epoch: 49, loss : 4.752 , generator global step : 77239
+epoch: 49, loss : 5.127 , generator global step : 77339
+epoch: 49, loss : 5.042 , generator global step : 77439
+epoch: 49, loss : 4.933 , generator global step : 77539
+epoch: 49, loss : 5.025 , generator global step : 77639
+epoch: 49, loss : 4.790 , generator global step : 77739
+epoch: 49, loss : 4.689 , generator global step : 77839
+epoch: 49, loss : 4.946 , generator global step : 77939
+epoch: 49, loss : 4.959 , generator global step : 78039
+epoch: 50, loss : 4.938 , generator global step : 78101
+epoch: 50, loss : 4.933 , generator global step : 78201
+epoch: 50, loss : 5.047 , generator global step : 78301
+epoch: 50, loss : 4.849 , generator global step : 78401
+epoch: 50, loss : 4.819 , generator global step : 78501
+epoch: 50, loss : 5.033 , generator global step : 78601
+epoch: 50, loss : 4.723 , generator global step : 78701
+epoch: 50, loss : 4.805 , generator global step : 78801
+epoch: 50, loss : 4.867 , generator global step : 78901
+epoch: 50, loss : 4.840 , generator global step : 79001
+epoch: 50, loss : 4.935 , generator global step : 79101
+epoch: 50, loss : 4.914 , generator global step : 79201
+epoch: 50, loss : 4.759 , generator global step : 79301
+epoch: 50, loss : 5.034 , generator global step : 79401
+epoch: 50, loss : 5.025 , generator global step : 79501
+epoch: 50, loss : 4.902 , generator global step : 79601
+epoch: 51, loss : 4.855 , generator global step : 79663
+epoch: 51, loss : 4.844 , generator global step : 79763
+epoch: 51, loss : 4.809 , generator global step : 79863
+epoch: 51, loss : 4.710 , generator global step : 79963
+epoch: 51, loss : 4.860 , generator global step : 80063
+epoch: 51, loss : 4.671 , generator global step : 80163
+epoch: 51, loss : 4.869 , generator global step : 80263
+epoch: 51, loss : 4.861 , generator global step : 80363
+epoch: 51, loss : 4.815 , generator global step : 80463
+epoch: 51, loss : 4.879 , generator global step : 80563
+epoch: 51, loss : 4.928 , generator global step : 80663
+epoch: 51, loss : 4.792 , generator global step : 80763
+epoch: 51, loss : 4.910 , generator global step : 80863
+epoch: 51, loss : 4.833 , generator global step : 80963
+epoch: 51, loss : 4.902 , generator global step : 81063
+epoch: 51, loss : 5.094 , generator global step : 81163
+epoch: 52, loss : 4.680 , generator global step : 81225
+epoch: 52, loss : 4.839 , generator global step : 81325
+epoch: 52, loss : 4.875 , generator global step : 81425
+epoch: 52, loss : 4.969 , generator global step : 81525
+epoch: 52, loss : 4.653 , generator global step : 81625
+epoch: 52, loss : 4.679 , generator global step : 81725
+epoch: 52, loss : 4.718 , generator global step : 81825
+epoch: 52, loss : 5.095 , generator global step : 81925
+epoch: 52, loss : 4.755 , generator global step : 82025
+epoch: 52, loss : 4.801 , generator global step : 82125
+epoch: 52, loss : 4.649 , generator global step : 82225
+epoch: 52, loss : 4.733 , generator global step : 82325
+epoch: 52, loss : 5.015 , generator global step : 82425
+epoch: 52, loss : 4.947 , generator global step : 82525
+epoch: 52, loss : 4.861 , generator global step : 82625
+epoch: 52, loss : 4.960 , generator global step : 82725
+epoch: 53, loss : 4.879 , generator global step : 82787
+epoch: 53, loss : 4.932 , generator global step : 82887
+epoch: 53, loss : 4.657 , generator global step : 82987
+epoch: 53, loss : 4.691 , generator global step : 83087
+epoch: 53, loss : 4.932 , generator global step : 83187
+epoch: 53, loss : 4.742 , generator global step : 83287
+epoch: 53, loss : 4.668 , generator global step : 83387
+epoch: 53, loss : 4.787 , generator global step : 83487
+epoch: 53, loss : 5.053 , generator global step : 83587
+epoch: 53, loss : 4.792 , generator global step : 83687
+epoch: 53, loss : 4.646 , generator global step : 83787
+epoch: 53, loss : 4.763 , generator global step : 83887
+epoch: 53, loss : 4.836 , generator global step : 83987
+epoch: 53, loss : 4.950 , generator global step : 84087
+epoch: 53, loss : 4.691 , generator global step : 84187
+epoch: 53, loss : 4.664 , generator global step : 84287
+epoch: 54, loss : 4.589 , generator global step : 84349
+epoch: 54, loss : 4.665 , generator global step : 84449
+epoch: 54, loss : 4.717 , generator global step : 84549
+epoch: 54, loss : 4.726 , generator global step : 84649
+epoch: 54, loss : 4.769 , generator global step : 84749
+epoch: 54, loss : 4.707 , generator global step : 84849
+epoch: 54, loss : 4.710 , generator global step : 84949
+epoch: 54, loss : 4.921 , generator global step : 85049
+epoch: 54, loss : 4.994 , generator global step : 85149
+epoch: 54, loss : 4.832 , generator global step : 85249
+epoch: 54, loss : 4.711 , generator global step : 85349
+epoch: 54, loss : 4.976 , generator global step : 85449
+epoch: 54, loss : 4.537 , generator global step : 85549
+epoch: 54, loss : 4.660 , generator global step : 85649
+epoch: 54, loss : 4.832 , generator global step : 85749
+epoch: 54, loss : 4.909 , generator global step : 85849
+epoch: 55, loss : 4.709 , generator global step : 85911INFO:tensorflow:seconds for 86000 training generator step: 0.027 
+INFO:tensorflow:loss: 4.199632
+INFO:tensorflow:seconds for 87000 training generator step: 0.286 
+INFO:tensorflow:loss: 47.334784
+INFO:tensorflow:finished 56 epoches
+INFO:tensorflow:seconds for 88000 training generator step: 0.160 
+INFO:tensorflow:loss: 24.680883
+INFO:tensorflow:seconds for 89000 training generator step: 0.288 
+INFO:tensorflow:loss: 47.326760
+INFO:tensorflow:finished 57 epoches
+INFO:tensorflow:seconds for 90000 training generator step: 0.273 
+INFO:tensorflow:loss: 45.105334
+INFO:tensorflow:finished 58 epoches
+INFO:tensorflow:seconds for 91000 training generator step: 0.122 
+INFO:tensorflow:loss: 18.640685
+INFO:tensorflow:seconds for 92000 training generator step: 0.286 
+INFO:tensorflow:loss: 46.746107
+INFO:tensorflow:finished 59 epoches
+INFO:tensorflow:seconds for 93000 training generator step: 0.251 
+INFO:tensorflow:loss: 38.807116
+INFO:tensorflow:finished 60 epoches
+INFO:tensorflow:seconds for 94000 training generator step: 0.077 
+INFO:tensorflow:loss: 12.756866
+INFO:tensorflow:seconds for 95000 training generator step: 0.285 
+INFO:tensorflow:loss: 46.112989
+INFO:tensorflow:finished 61 epoches
+INFO:tensorflow:seconds for 96000 training generator step: 0.199 
+INFO:tensorflow:loss: 32.655392
+INFO:tensorflow:finished 62 epoches
+INFO:tensorflow:seconds for 97000 training generator step: 0.028 
+INFO:tensorflow:loss: 6.998987
+INFO:tensorflow:seconds for 98000 training generator step: 0.287 
+INFO:tensorflow:loss: 45.509892
+INFO:tensorflow:finished 63 epoches
+INFO:tensorflow:seconds for 99000 training generator step: 0.162 
+INFO:tensorflow:loss: 26.665686
+INFO:tensorflow:finished 64 epoches
+INFO:tensorflow:seconds for 100000 training generator step: 0.009 
+INFO:tensorflow:loss: 1.406649
+
+epoch: 55, loss : 4.635 , generator global step : 86011
+epoch: 55, loss : 4.664 , generator global step : 86111
+epoch: 55, loss : 4.629 , generator global step : 86211
+epoch: 55, loss : 4.509 , generator global step : 86311
+epoch: 55, loss : 4.671 , generator global step : 86411
+epoch: 55, loss : 4.678 , generator global step : 86511
+epoch: 55, loss : 4.870 , generator global step : 86611
+epoch: 55, loss : 4.890 , generator global step : 86711
+epoch: 55, loss : 4.957 , generator global step : 86811
+epoch: 55, loss : 4.803 , generator global step : 86911
+epoch: 55, loss : 4.692 , generator global step : 87011
+epoch: 55, loss : 4.780 , generator global step : 87111
+epoch: 55, loss : 4.770 , generator global step : 87211
+epoch: 55, loss : 4.803 , generator global step : 87311
+epoch: 55, loss : 4.824 , generator global step : 87411
+epoch: 56, loss : 4.572 , generator global step : 87473
+epoch: 56, loss : 4.677 , generator global step : 87573
+epoch: 56, loss : 4.767 , generator global step : 87673
+epoch: 56, loss : 4.786 , generator global step : 87773
+epoch: 56, loss : 4.850 , generator global step : 87873
+epoch: 56, loss : 4.432 , generator global step : 87973
+epoch: 56, loss : 4.521 , generator global step : 88073
+epoch: 56, loss : 4.691 , generator global step : 88173
+epoch: 56, loss : 4.463 , generator global step : 88273
+epoch: 56, loss : 4.560 , generator global step : 88373
+epoch: 56, loss : 4.627 , generator global step : 88473
+epoch: 56, loss : 4.717 , generator global step : 88573
+epoch: 56, loss : 4.934 , generator global step : 88673
+epoch: 56, loss : 4.776 , generator global step : 88773
+epoch: 56, loss : 4.680 , generator global step : 88873
+epoch: 56, loss : 4.713 , generator global step : 88973
+epoch: 57, loss : 4.593 , generator global step : 89035
+epoch: 57, loss : 4.542 , generator global step : 89135
+epoch: 57, loss : 4.838 , generator global step : 89235
+epoch: 57, loss : 4.666 , generator global step : 89335
+epoch: 57, loss : 4.687 , generator global step : 89435
+epoch: 57, loss : 4.622 , generator global step : 89535
+epoch: 57, loss : 4.854 , generator global step : 89635
+epoch: 57, loss : 4.559 , generator global step : 89735
+epoch: 57, loss : 4.540 , generator global step : 89835
+epoch: 57, loss : 4.726 , generator global step : 89935
+epoch: 57, loss : 4.670 , generator global step : 90035
+epoch: 57, loss : 4.574 , generator global step : 90135
+epoch: 57, loss : 4.714 , generator global step : 90235
+epoch: 57, loss : 4.493 , generator global step : 90335
+epoch: 57, loss : 4.549 , generator global step : 90435
+epoch: 57, loss : 4.672 , generator global step : 90535
+epoch: 58, loss : 4.636 , generator global step : 90597
+epoch: 58, loss : 4.535 , generator global step : 90697
+epoch: 58, loss : 4.876 , generator global step : 90797
+epoch: 58, loss : 4.769 , generator global step : 90897
+epoch: 58, loss : 4.483 , generator global step : 90997
+epoch: 58, loss : 4.572 , generator global step : 91097
+epoch: 58, loss : 4.424 , generator global step : 91197
+epoch: 58, loss : 4.735 , generator global step : 91297
+epoch: 58, loss : 4.761 , generator global step : 91397
+epoch: 58, loss : 4.452 , generator global step : 91497
+epoch: 58, loss : 4.643 , generator global step : 91597
+epoch: 58, loss : 4.739 , generator global step : 91697
+epoch: 58, loss : 4.802 , generator global step : 91797
+epoch: 58, loss : 4.770 , generator global step : 91897
+epoch: 58, loss : 4.693 , generator global step : 91997
+epoch: 58, loss : 4.553 , generator global step : 92097
+epoch: 59, loss : 4.550 , generator global step : 92159
+epoch: 59, loss : 4.561 , generator global step : 92259
+epoch: 59, loss : 4.698 , generator global step : 92359
+epoch: 59, loss : 4.367 , generator global step : 92459
+epoch: 59, loss : 4.598 , generator global step : 92559
+epoch: 59, loss : 4.635 , generator global step : 92659
+epoch: 59, loss : 4.592 , generator global step : 92759
+epoch: 59, loss : 4.537 , generator global step : 92859
+epoch: 59, loss : 4.299 , generator global step : 92959
+epoch: 59, loss : 4.572 , generator global step : 93059
+epoch: 59, loss : 4.846 , generator global step : 93159
+epoch: 59, loss : 4.573 , generator global step : 93259
+epoch: 59, loss : 4.529 , generator global step : 93359
+epoch: 59, loss : 4.511 , generator global step : 93459
+epoch: 59, loss : 4.480 , generator global step : 93559
+epoch: 59, loss : 4.796 , generator global step : 93659
+epoch: 60, loss : 4.439 , generator global step : 93721
+epoch: 60, loss : 4.514 , generator global step : 93821
+epoch: 60, loss : 4.453 , generator global step : 93921
+epoch: 60, loss : 4.568 , generator global step : 94021
+epoch: 60, loss : 4.708 , generator global step : 94121
+epoch: 60, loss : 4.615 , generator global step : 94221
+epoch: 60, loss : 4.523 , generator global step : 94321
+epoch: 60, loss : 4.701 , generator global step : 94421
+epoch: 60, loss : 4.761 , generator global step : 94521
+epoch: 60, loss : 4.622 , generator global step : 94621
+epoch: 60, loss : 4.579 , generator global step : 94721
+epoch: 60, loss : 4.444 , generator global step : 94821
+epoch: 60, loss : 4.662 , generator global step : 94921
+epoch: 60, loss : 4.550 , generator global step : 95021
+epoch: 60, loss : 4.724 , generator global step : 95121
+epoch: 60, loss : 4.593 , generator global step : 95221
+epoch: 61, loss : 4.423 , generator global step : 95283
+epoch: 61, loss : 4.291 , generator global step : 95383
+epoch: 61, loss : 4.242 , generator global step : 95483
+epoch: 61, loss : 4.783 , generator global step : 95583
+epoch: 61, loss : 4.610 , generator global step : 95683
+epoch: 61, loss : 4.447 , generator global step : 95783
+epoch: 61, loss : 4.364 , generator global step : 95883
+epoch: 61, loss : 4.567 , generator global step : 95983
+epoch: 61, loss : 4.630 , generator global step : 96083
+epoch: 61, loss : 4.697 , generator global step : 96183
+epoch: 61, loss : 4.637 , generator global step : 96283
+epoch: 61, loss : 4.600 , generator global step : 96383
+epoch: 61, loss : 4.701 , generator global step : 96483
+epoch: 61, loss : 4.714 , generator global step : 96583
+epoch: 61, loss : 4.768 , generator global step : 96683
+epoch: 61, loss : 4.546 , generator global step : 96783
+epoch: 62, loss : 4.679 , generator global step : 96845
+epoch: 62, loss : 4.477 , generator global step : 96945
+epoch: 62, loss : 4.577 , generator global step : 97045
+epoch: 62, loss : 4.572 , generator global step : 97145
+epoch: 62, loss : 4.325 , generator global step : 97245
+epoch: 62, loss : 4.647 , generator global step : 97345
+epoch: 62, loss : 4.615 , generator global step : 97445
+epoch: 62, loss : 4.492 , generator global step : 97545
+epoch: 62, loss : 4.559 , generator global step : 97645
+epoch: 62, loss : 4.402 , generator global step : 97745
+epoch: 62, loss : 4.505 , generator global step : 97845
+epoch: 62, loss : 4.874 , generator global step : 97945
+epoch: 62, loss : 4.717 , generator global step : 98045
+epoch: 62, loss : 4.638 , generator global step : 98145
+epoch: 62, loss : 4.585 , generator global step : 98245
+epoch: 62, loss : 4.639 , generator global step : 98345
+epoch: 63, loss : 4.561 , generator global step : 98407
+epoch: 63, loss : 4.527 , generator global step : 98507
+epoch: 63, loss : 4.557 , generator global step : 98607
+epoch: 63, loss : 4.555 , generator global step : 98707
+epoch: 63, loss : 4.401 , generator global step : 98807
+epoch: 63, loss : 4.592 , generator global step : 98907
+epoch: 63, loss : 4.564 , generator global step : 99007
+epoch: 63, loss : 4.307 , generator global step : 99107
+epoch: 63, loss : 4.396 , generator global step : 99207
+epoch: 63, loss : 4.501 , generator global step : 99307
+epoch: 63, loss : 4.579 , generator global step : 99407
+epoch: 63, loss : 4.697 , generator global step : 99507
+epoch: 63, loss : 4.477 , generator global step : 99607
+epoch: 63, loss : 4.666 , generator global step : 99707
+epoch: 63, loss : 4.534 , generator global step : 99807
+epoch: 63, loss : 4.357 , generator global step : 99907
+epoch: 64, loss : 4.277 , generator global step : 99969
+epoch: 64, loss : 4.153 , generator global step : 100069
+epoch: 64, loss : 4.560 , generator global step : 100169
+epoch: 64, loss : 4.296 , generator global step : 100269INFO:tensorflow:seconds for 101000 training generator step: 0.289 
+INFO:tensorflow:loss: 44.845186
+INFO:tensorflow:finished 65 epoches
+INFO:tensorflow:seconds for 102000 training generator step: 0.125 
+INFO:tensorflow:loss: 20.815634
+INFO:tensorflow:seconds for 103000 training generator step: 0.288 
+INFO:tensorflow:loss: 44.845389
+INFO:tensorflow:finished 66 epoches
+INFO:tensorflow:seconds for 104000 training generator step: 0.259 
+INFO:tensorflow:loss: 40.092441
+INFO:tensorflow:finished 67 epoches
+INFO:tensorflow:seconds for 105000 training generator step: 0.100 
+INFO:tensorflow:loss: 15.054087
+INFO:tensorflow:seconds for 106000 training generator step: 0.289 
+INFO:tensorflow:loss: 44.246621
+INFO:tensorflow:finished 68 epoches
+INFO:tensorflow:seconds for 107000 training generator step: 0.218 
+INFO:tensorflow:loss: 34.104541
+INFO:tensorflow:finished 69 epoches
+INFO:tensorflow:seconds for 108000 training generator step: 0.066 
+INFO:tensorflow:loss: 9.518704
+INFO:tensorflow:seconds for 109000 training generator step: 0.286 
+INFO:tensorflow:loss: 43.500140
+INFO:tensorflow:finished 70 epoches
+INFO:tensorflow:seconds for 110000 training generator step: 0.181 
+INFO:tensorflow:loss: 28.229516
+INFO:tensorflow:finished 71 epoches
+INFO:tensorflow:seconds for 111000 training generator step: 0.030 
+INFO:tensorflow:loss: 4.127953
+INFO:tensorflow:seconds for 112000 training generator step: 0.289 
+INFO:tensorflow:loss: 42.787161
+INFO:tensorflow:finished 72 epoches
+INFO:tensorflow:seconds for 113000 training generator step: 0.161 
+INFO:tensorflow:loss: 22.565928
+INFO:tensorflow:seconds for 114000 training generator step: 0.288 
+INFO:tensorflow:loss: 42.824434
+INFO:tensorflow:finished 73 epoches
+
+epoch: 64, loss : 4.330 , generator global step : 100369
+epoch: 64, loss : 4.342 , generator global step : 100469
+epoch: 64, loss : 4.626 , generator global step : 100569
+epoch: 64, loss : 4.294 , generator global step : 100669
+epoch: 64, loss : 4.433 , generator global step : 100769
+epoch: 64, loss : 4.715 , generator global step : 100869
+epoch: 64, loss : 4.470 , generator global step : 100969
+epoch: 64, loss : 4.510 , generator global step : 101069
+epoch: 64, loss : 4.346 , generator global step : 101169
+epoch: 64, loss : 4.445 , generator global step : 101269
+epoch: 64, loss : 4.883 , generator global step : 101369
+epoch: 64, loss : 4.661 , generator global step : 101469
+epoch: 65, loss : 4.350 , generator global step : 101531
+epoch: 65, loss : 4.539 , generator global step : 101631
+epoch: 65, loss : 4.445 , generator global step : 101731
+epoch: 65, loss : 4.406 , generator global step : 101831
+epoch: 65, loss : 4.501 , generator global step : 101931
+epoch: 65, loss : 4.532 , generator global step : 102031
+epoch: 65, loss : 4.280 , generator global step : 102131
+epoch: 65, loss : 4.568 , generator global step : 102231
+epoch: 65, loss : 4.516 , generator global step : 102331
+epoch: 65, loss : 4.517 , generator global step : 102431
+epoch: 65, loss : 4.442 , generator global step : 102531
+epoch: 65, loss : 4.429 , generator global step : 102631
+epoch: 65, loss : 4.487 , generator global step : 102731
+epoch: 65, loss : 4.416 , generator global step : 102831
+epoch: 65, loss : 4.403 , generator global step : 102931
+epoch: 65, loss : 4.538 , generator global step : 103031
+epoch: 66, loss : 4.448 , generator global step : 103093
+epoch: 66, loss : 4.549 , generator global step : 103193
+epoch: 66, loss : 4.292 , generator global step : 103293
+epoch: 66, loss : 4.257 , generator global step : 103393
+epoch: 66, loss : 4.503 , generator global step : 103493
+epoch: 66, loss : 4.464 , generator global step : 103593
+epoch: 66, loss : 4.546 , generator global step : 103693
+epoch: 66, loss : 4.450 , generator global step : 103793
+epoch: 66, loss : 4.416 , generator global step : 103893
+epoch: 66, loss : 4.615 , generator global step : 103993
+epoch: 66, loss : 4.556 , generator global step : 104093
+epoch: 66, loss : 4.350 , generator global step : 104193
+epoch: 66, loss : 4.361 , generator global step : 104293
+epoch: 66, loss : 4.389 , generator global step : 104393
+epoch: 66, loss : 4.509 , generator global step : 104493
+epoch: 66, loss : 4.355 , generator global step : 104593
+epoch: 67, loss : 4.474 , generator global step : 104655
+epoch: 67, loss : 4.268 , generator global step : 104755
+epoch: 67, loss : 4.471 , generator global step : 104855
+epoch: 67, loss : 4.210 , generator global step : 104955
+epoch: 67, loss : 4.521 , generator global step : 105055
+epoch: 67, loss : 4.535 , generator global step : 105155
+epoch: 67, loss : 4.490 , generator global step : 105255
+epoch: 67, loss : 4.519 , generator global step : 105355
+epoch: 67, loss : 4.182 , generator global step : 105455
+epoch: 67, loss : 4.274 , generator global step : 105555
+epoch: 67, loss : 4.253 , generator global step : 105655
+epoch: 67, loss : 4.333 , generator global step : 105755
+epoch: 67, loss : 4.630 , generator global step : 105855
+epoch: 67, loss : 4.440 , generator global step : 105955
+epoch: 67, loss : 4.564 , generator global step : 106055
+epoch: 67, loss : 4.454 , generator global step : 106155
+epoch: 68, loss : 4.143 , generator global step : 106217
+epoch: 68, loss : 4.222 , generator global step : 106317
+epoch: 68, loss : 4.549 , generator global step : 106417
+epoch: 68, loss : 4.587 , generator global step : 106517
+epoch: 68, loss : 4.441 , generator global step : 106617
+epoch: 68, loss : 4.438 , generator global step : 106717
+epoch: 68, loss : 4.388 , generator global step : 106817
+epoch: 68, loss : 4.483 , generator global step : 106917
+epoch: 68, loss : 4.129 , generator global step : 107017
+epoch: 68, loss : 4.299 , generator global step : 107117
+epoch: 68, loss : 4.448 , generator global step : 107217
+epoch: 68, loss : 4.483 , generator global step : 107317
+epoch: 68, loss : 4.782 , generator global step : 107417
+epoch: 68, loss : 4.267 , generator global step : 107517
+epoch: 68, loss : 4.529 , generator global step : 107617
+epoch: 68, loss : 4.642 , generator global step : 107717
+epoch: 69, loss : 4.169 , generator global step : 107779
+epoch: 69, loss : 4.094 , generator global step : 107879
+epoch: 69, loss : 4.468 , generator global step : 107979
+epoch: 69, loss : 4.363 , generator global step : 108079
+epoch: 69, loss : 4.160 , generator global step : 108179
+epoch: 69, loss : 4.112 , generator global step : 108279
+epoch: 69, loss : 4.509 , generator global step : 108379
+epoch: 69, loss : 4.240 , generator global step : 108479
+epoch: 69, loss : 4.436 , generator global step : 108579
+epoch: 69, loss : 4.366 , generator global step : 108679
+epoch: 69, loss : 4.410 , generator global step : 108779
+epoch: 69, loss : 4.340 , generator global step : 108879
+epoch: 69, loss : 4.215 , generator global step : 108979
+epoch: 69, loss : 4.172 , generator global step : 109079
+epoch: 69, loss : 4.325 , generator global step : 109179
+epoch: 69, loss : 4.599 , generator global step : 109279
+epoch: 70, loss : 4.313 , generator global step : 109341
+epoch: 70, loss : 4.203 , generator global step : 109441
+epoch: 70, loss : 4.275 , generator global step : 109541
+epoch: 70, loss : 4.218 , generator global step : 109641
+epoch: 70, loss : 4.437 , generator global step : 109741
+epoch: 70, loss : 4.246 , generator global step : 109841
+epoch: 70, loss : 4.273 , generator global step : 109941
+epoch: 70, loss : 4.228 , generator global step : 110041
+epoch: 70, loss : 4.560 , generator global step : 110141
+epoch: 70, loss : 4.307 , generator global step : 110241
+epoch: 70, loss : 4.412 , generator global step : 110341
+epoch: 70, loss : 4.554 , generator global step : 110441
+epoch: 70, loss : 4.360 , generator global step : 110541
+epoch: 70, loss : 4.383 , generator global step : 110641
+epoch: 70, loss : 4.396 , generator global step : 110741
+epoch: 70, loss : 4.238 , generator global step : 110841
+epoch: 71, loss : 4.139 , generator global step : 110903
+epoch: 71, loss : 4.578 , generator global step : 111003
+epoch: 71, loss : 3.942 , generator global step : 111103
+epoch: 71, loss : 4.285 , generator global step : 111203
+epoch: 71, loss : 4.291 , generator global step : 111303
+epoch: 71, loss : 4.503 , generator global step : 111403
+epoch: 71, loss : 4.253 , generator global step : 111503
+epoch: 71, loss : 4.420 , generator global step : 111603
+epoch: 71, loss : 4.337 , generator global step : 111703
+epoch: 71, loss : 4.311 , generator global step : 111803
+epoch: 71, loss : 4.032 , generator global step : 111903
+epoch: 71, loss : 4.424 , generator global step : 112003
+epoch: 71, loss : 4.368 , generator global step : 112103
+epoch: 71, loss : 4.473 , generator global step : 112203
+epoch: 71, loss : 4.065 , generator global step : 112303
+epoch: 71, loss : 4.346 , generator global step : 112403
+epoch: 72, loss : 4.146 , generator global step : 112465
+epoch: 72, loss : 4.271 , generator global step : 112565
+epoch: 72, loss : 4.502 , generator global step : 112665
+epoch: 72, loss : 4.244 , generator global step : 112765
+epoch: 72, loss : 4.165 , generator global step : 112865
+epoch: 72, loss : 4.436 , generator global step : 112965
+epoch: 72, loss : 4.249 , generator global step : 113065
+epoch: 72, loss : 4.253 , generator global step : 113165
+epoch: 72, loss : 4.148 , generator global step : 113265
+epoch: 72, loss : 4.198 , generator global step : 113365
+epoch: 72, loss : 4.398 , generator global step : 113465
+epoch: 72, loss : 4.418 , generator global step : 113565
+epoch: 72, loss : 4.368 , generator global step : 113665
+epoch: 72, loss : 4.228 , generator global step : 113765
+epoch: 72, loss : 4.470 , generator global step : 113865
+epoch: 72, loss : 4.430 , generator global step : 113965
+epoch: 73, loss : 3.813 , generator global step : 114027
+epoch: 73, loss : 3.783 , generator global step : 114127
+epoch: 73, loss : 4.078 , generator global step : 114227
+epoch: 73, loss : 4.113 , generator global step : 114327INFO:tensorflow:seconds for 115000 training generator step: 0.275 
+INFO:tensorflow:loss: 40.915997
+INFO:tensorflow:finished 74 epoches
+INFO:tensorflow:seconds for 116000 training generator step: 0.125 
+INFO:tensorflow:loss: 17.006152
+INFO:tensorflow:seconds for 117000 training generator step: 0.286 
+INFO:tensorflow:loss: 42.163596
+INFO:tensorflow:finished 75 epoches
+INFO:tensorflow:seconds for 118000 training generator step: 0.245 
+INFO:tensorflow:loss: 35.160118
+INFO:tensorflow:finished 76 epoches
+INFO:tensorflow:seconds for 119000 training generator step: 0.087 
+INFO:tensorflow:loss: 11.728456
+INFO:tensorflow:seconds for 120000 training generator step: 0.289 
+INFO:tensorflow:loss: 41.371506
+INFO:tensorflow:finished 77 epoches
+INFO:tensorflow:seconds for 121000 training generator step: 0.214 
+INFO:tensorflow:loss: 29.519542
+INFO:tensorflow:finished 78 epoches
+INFO:tensorflow:seconds for 122000 training generator step: 0.038 
+INFO:tensorflow:loss: 6.561236
+INFO:tensorflow:seconds for 123000 training generator step: 0.286 
+INFO:tensorflow:loss: 40.664098
+INFO:tensorflow:finished 79 epoches
+INFO:tensorflow:seconds for 124000 training generator step: 0.163 
+INFO:tensorflow:loss: 24.040529
+INFO:tensorflow:finished 80 epoches
+INFO:tensorflow:seconds for 125000 training generator step: 0.012 
+INFO:tensorflow:loss: 1.554999
+INFO:tensorflow:seconds for 126000 training generator step: 0.288 
+INFO:tensorflow:loss: 39.916642
+INFO:tensorflow:finished 81 epoches
+INFO:tensorflow:seconds for 127000 training generator step: 0.127 
+INFO:tensorflow:loss: 18.740894
+INFO:tensorflow:seconds for 128000 training generator step: 0.287 
+INFO:tensorflow:loss: 40.073090
+INFO:tensorflow:finished 82 epoches
+
+epoch: 73, loss : 4.033 , generator global step : 114427
+epoch: 73, loss : 4.306 , generator global step : 114527
+epoch: 73, loss : 4.413 , generator global step : 114627
+epoch: 73, loss : 3.991 , generator global step : 114727
+epoch: 73, loss : 4.164 , generator global step : 114827
+epoch: 73, loss : 4.205 , generator global step : 114927
+epoch: 73, loss : 4.090 , generator global step : 115027
+epoch: 73, loss : 4.332 , generator global step : 115127
+epoch: 73, loss : 4.199 , generator global step : 115227
+epoch: 73, loss : 4.004 , generator global step : 115327
+epoch: 73, loss : 4.321 , generator global step : 115427
+epoch: 73, loss : 4.427 , generator global step : 115527
+epoch: 74, loss : 4.097 , generator global step : 115589
+epoch: 74, loss : 4.202 , generator global step : 115689
+epoch: 74, loss : 4.219 , generator global step : 115789
+epoch: 74, loss : 4.194 , generator global step : 115889
+epoch: 74, loss : 4.282 , generator global step : 115989
+epoch: 74, loss : 4.266 , generator global step : 116089
+epoch: 74, loss : 4.240 , generator global step : 116189
+epoch: 74, loss : 4.034 , generator global step : 116289
+epoch: 74, loss : 4.232 , generator global step : 116389
+epoch: 74, loss : 4.253 , generator global step : 116489
+epoch: 74, loss : 4.122 , generator global step : 116589
+epoch: 74, loss : 4.170 , generator global step : 116689
+epoch: 74, loss : 4.496 , generator global step : 116789
+epoch: 74, loss : 4.266 , generator global step : 116889
+epoch: 74, loss : 4.241 , generator global step : 116989
+epoch: 74, loss : 4.154 , generator global step : 117089
+epoch: 75, loss : 4.056 , generator global step : 117151
+epoch: 75, loss : 3.947 , generator global step : 117251
+epoch: 75, loss : 4.020 , generator global step : 117351
+epoch: 75, loss : 4.154 , generator global step : 117451
+epoch: 75, loss : 3.921 , generator global step : 117551
+epoch: 75, loss : 4.129 , generator global step : 117651
+epoch: 75, loss : 4.480 , generator global step : 117751
+epoch: 75, loss : 4.184 , generator global step : 117851
+epoch: 75, loss : 3.950 , generator global step : 117951
+epoch: 75, loss : 4.366 , generator global step : 118051
+epoch: 75, loss : 4.347 , generator global step : 118151
+epoch: 75, loss : 4.387 , generator global step : 118251
+epoch: 75, loss : 4.211 , generator global step : 118351
+epoch: 75, loss : 4.317 , generator global step : 118451
+epoch: 75, loss : 4.366 , generator global step : 118551
+epoch: 75, loss : 4.295 , generator global step : 118651
+epoch: 76, loss : 4.030 , generator global step : 118713
+epoch: 76, loss : 4.347 , generator global step : 118813
+epoch: 76, loss : 4.363 , generator global step : 118913
+epoch: 76, loss : 4.095 , generator global step : 119013
+epoch: 76, loss : 4.155 , generator global step : 119113
+epoch: 76, loss : 3.892 , generator global step : 119213
+epoch: 76, loss : 4.309 , generator global step : 119313
+epoch: 76, loss : 3.963 , generator global step : 119413
+epoch: 76, loss : 4.287 , generator global step : 119513
+epoch: 76, loss : 4.296 , generator global step : 119613
+epoch: 76, loss : 4.162 , generator global step : 119713
+epoch: 76, loss : 4.304 , generator global step : 119813
+epoch: 76, loss : 3.911 , generator global step : 119913
+epoch: 76, loss : 4.268 , generator global step : 120013
+epoch: 76, loss : 4.027 , generator global step : 120113
+epoch: 76, loss : 4.378 , generator global step : 120213
+epoch: 77, loss : 4.138 , generator global step : 120275
+epoch: 77, loss : 3.840 , generator global step : 120375
+epoch: 77, loss : 4.052 , generator global step : 120475
+epoch: 77, loss : 4.181 , generator global step : 120575
+epoch: 77, loss : 3.985 , generator global step : 120675
+epoch: 77, loss : 4.196 , generator global step : 120775
+epoch: 77, loss : 4.181 , generator global step : 120875
+epoch: 77, loss : 4.198 , generator global step : 120975
+epoch: 77, loss : 4.038 , generator global step : 121075
+epoch: 77, loss : 4.129 , generator global step : 121175
+epoch: 77, loss : 4.249 , generator global step : 121275
+epoch: 77, loss : 4.067 , generator global step : 121375
+epoch: 77, loss : 4.159 , generator global step : 121475
+epoch: 77, loss : 4.340 , generator global step : 121575
+epoch: 77, loss : 4.387 , generator global step : 121675
+epoch: 77, loss : 4.181 , generator global step : 121775
+epoch: 78, loss : 4.147 , generator global step : 121837
+epoch: 78, loss : 4.245 , generator global step : 121937
+epoch: 78, loss : 4.048 , generator global step : 122037
+epoch: 78, loss : 3.721 , generator global step : 122137
+epoch: 78, loss : 4.094 , generator global step : 122237
+epoch: 78, loss : 4.128 , generator global step : 122337
+epoch: 78, loss : 4.325 , generator global step : 122437
+epoch: 78, loss : 4.135 , generator global step : 122537
+epoch: 78, loss : 4.320 , generator global step : 122637
+epoch: 78, loss : 3.956 , generator global step : 122737
+epoch: 78, loss : 3.945 , generator global step : 122837
+epoch: 78, loss : 4.231 , generator global step : 122937
+epoch: 78, loss : 3.820 , generator global step : 123037
+epoch: 78, loss : 4.391 , generator global step : 123137
+epoch: 78, loss : 4.336 , generator global step : 123237
+epoch: 78, loss : 4.141 , generator global step : 123337
+epoch: 79, loss : 4.222 , generator global step : 123399
+epoch: 79, loss : 4.056 , generator global step : 123499
+epoch: 79, loss : 3.755 , generator global step : 123599
+epoch: 79, loss : 4.135 , generator global step : 123699
+epoch: 79, loss : 3.944 , generator global step : 123799
+epoch: 79, loss : 4.031 , generator global step : 123899
+epoch: 79, loss : 4.176 , generator global step : 123999
+epoch: 79, loss : 3.956 , generator global step : 124099
+epoch: 79, loss : 4.114 , generator global step : 124199
+epoch: 79, loss : 4.117 , generator global step : 124299
+epoch: 79, loss : 3.880 , generator global step : 124399
+epoch: 79, loss : 3.913 , generator global step : 124499
+epoch: 79, loss : 4.323 , generator global step : 124599
+epoch: 79, loss : 4.199 , generator global step : 124699
+epoch: 79, loss : 4.112 , generator global step : 124799
+epoch: 79, loss : 3.894 , generator global step : 124899
+epoch: 80, loss : 3.762 , generator global step : 124961
+epoch: 80, loss : 4.010 , generator global step : 125061
+epoch: 80, loss : 4.125 , generator global step : 125161
+epoch: 80, loss : 3.735 , generator global step : 125261
+epoch: 80, loss : 3.992 , generator global step : 125361
+epoch: 80, loss : 3.797 , generator global step : 125461
+epoch: 80, loss : 4.210 , generator global step : 125561
+epoch: 80, loss : 3.955 , generator global step : 125661
+epoch: 80, loss : 3.918 , generator global step : 125761
+epoch: 80, loss : 4.173 , generator global step : 125861
+epoch: 80, loss : 3.871 , generator global step : 125961
+epoch: 80, loss : 3.970 , generator global step : 126061
+epoch: 80, loss : 4.242 , generator global step : 126161
+epoch: 80, loss : 4.431 , generator global step : 126261
+epoch: 80, loss : 4.135 , generator global step : 126361
+epoch: 80, loss : 4.059 , generator global step : 126461
+epoch: 81, loss : 3.814 , generator global step : 126523
+epoch: 81, loss : 4.110 , generator global step : 126623
+epoch: 81, loss : 4.032 , generator global step : 126723
+epoch: 81, loss : 4.203 , generator global step : 126823
+epoch: 81, loss : 4.102 , generator global step : 126923
+epoch: 81, loss : 4.005 , generator global step : 127023
+epoch: 81, loss : 3.878 , generator global step : 127123
+epoch: 81, loss : 3.907 , generator global step : 127223
+epoch: 81, loss : 4.173 , generator global step : 127323
+epoch: 81, loss : 4.116 , generator global step : 127423
+epoch: 81, loss : 3.925 , generator global step : 127523
+epoch: 81, loss : 4.119 , generator global step : 127623
+epoch: 81, loss : 3.910 , generator global step : 127723
+epoch: 81, loss : 3.897 , generator global step : 127823
+epoch: 81, loss : 3.946 , generator global step : 127923
+epoch: 81, loss : 3.930 , generator global step : 128023
+epoch: 82, loss : 3.558 , generator global step : 128085
+epoch: 82, loss : 3.831 , generator global step : 128185
+epoch: 82, loss : 3.851 , generator global step : 128285
+epoch: 82, loss : 4.109 , generator global step : 128385INFO:tensorflow:seconds for 129000 training generator step: 0.257 
+INFO:tensorflow:loss: 35.897938
+INFO:tensorflow:finished 83 epoches
+INFO:tensorflow:seconds for 130000 training generator step: 0.094 
+INFO:tensorflow:loss: 13.706126
+INFO:tensorflow:seconds for 131000 training generator step: 0.289 
+INFO:tensorflow:loss: 39.309637
+INFO:tensorflow:finished 84 epoches
+INFO:tensorflow:seconds for 132000 training generator step: 0.222 
+INFO:tensorflow:loss: 30.503628
+INFO:tensorflow:finished 85 epoches
+INFO:tensorflow:seconds for 133000 training generator step: 0.070 
+INFO:tensorflow:loss: 8.682204
+INFO:tensorflow:seconds for 134000 training generator step: 0.287 
+INFO:tensorflow:loss: 38.655084
+INFO:tensorflow:finished 86 epoches
+INFO:tensorflow:seconds for 135000 training generator step: 0.185 
+INFO:tensorflow:loss: 25.236294
+INFO:tensorflow:finished 87 epoches
+INFO:tensorflow:seconds for 136000 training generator step: 0.032 
+INFO:tensorflow:loss: 3.915253
+INFO:tensorflow:seconds for 137000 training generator step: 0.285 
+INFO:tensorflow:loss: 37.959859
+INFO:tensorflow:finished 88 epoches
+INFO:tensorflow:seconds for 138000 training generator step: 0.157 
+INFO:tensorflow:loss: 20.314290
+INFO:tensorflow:seconds for 139000 training generator step: 0.286 
+INFO:tensorflow:loss: 37.995578
+INFO:tensorflow:finished 89 epoches
+INFO:tensorflow:seconds for 140000 training generator step: 0.280 
+INFO:tensorflow:loss: 36.535114
+INFO:tensorflow:finished 90 epoches
+INFO:tensorflow:seconds for 141000 training generator step: 0.126 
+INFO:tensorflow:loss: 15.336988
+INFO:tensorflow:seconds for 142000 training generator step: 0.286 
+INFO:tensorflow:loss: 37.403104
+INFO:tensorflow:finished 91 epoches
+
+epoch: 82, loss : 3.912 , generator global step : 128485
+epoch: 82, loss : 3.584 , generator global step : 128585
+epoch: 82, loss : 4.095 , generator global step : 128685
+epoch: 82, loss : 3.865 , generator global step : 128785
+epoch: 82, loss : 4.014 , generator global step : 128885
+epoch: 82, loss : 3.894 , generator global step : 128985
+epoch: 82, loss : 3.726 , generator global step : 129085
+epoch: 82, loss : 3.909 , generator global step : 129185
+epoch: 82, loss : 3.949 , generator global step : 129285
+epoch: 82, loss : 4.142 , generator global step : 129385
+epoch: 82, loss : 4.053 , generator global step : 129485
+epoch: 82, loss : 3.916 , generator global step : 129585
+epoch: 83, loss : 4.025 , generator global step : 129647
+epoch: 83, loss : 3.645 , generator global step : 129747
+epoch: 83, loss : 3.898 , generator global step : 129847
+epoch: 83, loss : 3.885 , generator global step : 129947
+epoch: 83, loss : 3.650 , generator global step : 130047
+epoch: 83, loss : 3.659 , generator global step : 130147
+epoch: 83, loss : 4.175 , generator global step : 130247
+epoch: 83, loss : 3.884 , generator global step : 130347
+epoch: 83, loss : 4.065 , generator global step : 130447
+epoch: 83, loss : 3.866 , generator global step : 130547
+epoch: 83, loss : 4.109 , generator global step : 130647
+epoch: 83, loss : 4.153 , generator global step : 130747
+epoch: 83, loss : 3.932 , generator global step : 130847
+epoch: 83, loss : 4.032 , generator global step : 130947
+epoch: 83, loss : 3.928 , generator global step : 131047
+epoch: 83, loss : 4.060 , generator global step : 131147
+epoch: 84, loss : 3.645 , generator global step : 131209
+epoch: 84, loss : 3.628 , generator global step : 131309
+epoch: 84, loss : 3.420 , generator global step : 131409
+epoch: 84, loss : 3.672 , generator global step : 131509
+epoch: 84, loss : 3.864 , generator global step : 131609
+epoch: 84, loss : 3.831 , generator global step : 131709
+epoch: 84, loss : 3.921 , generator global step : 131809
+epoch: 84, loss : 4.034 , generator global step : 131909
+epoch: 84, loss : 3.658 , generator global step : 132009
+epoch: 84, loss : 3.835 , generator global step : 132109
+epoch: 84, loss : 3.913 , generator global step : 132209
+epoch: 84, loss : 3.750 , generator global step : 132309
+epoch: 84, loss : 3.756 , generator global step : 132409
+epoch: 84, loss : 4.033 , generator global step : 132509
+epoch: 84, loss : 3.924 , generator global step : 132609
+epoch: 84, loss : 4.075 , generator global step : 132709
+epoch: 85, loss : 3.909 , generator global step : 132771
+epoch: 85, loss : 3.589 , generator global step : 132871
+epoch: 85, loss : 3.980 , generator global step : 132971
+epoch: 85, loss : 3.949 , generator global step : 133071
+epoch: 85, loss : 3.740 , generator global step : 133171
+epoch: 85, loss : 3.917 , generator global step : 133271
+epoch: 85, loss : 3.920 , generator global step : 133371
+epoch: 85, loss : 3.779 , generator global step : 133471
+epoch: 85, loss : 4.176 , generator global step : 133571
+epoch: 85, loss : 4.005 , generator global step : 133671
+epoch: 85, loss : 3.760 , generator global step : 133771
+epoch: 85, loss : 3.890 , generator global step : 133871
+epoch: 85, loss : 3.902 , generator global step : 133971
+epoch: 85, loss : 3.996 , generator global step : 134071
+epoch: 85, loss : 3.830 , generator global step : 134171
+epoch: 85, loss : 3.802 , generator global step : 134271
+epoch: 86, loss : 3.788 , generator global step : 134333
+epoch: 86, loss : 3.872 , generator global step : 134433
+epoch: 86, loss : 3.607 , generator global step : 134533
+epoch: 86, loss : 3.765 , generator global step : 134633
+epoch: 86, loss : 3.594 , generator global step : 134733
+epoch: 86, loss : 3.975 , generator global step : 134833
+epoch: 86, loss : 3.754 , generator global step : 134933
+epoch: 86, loss : 3.946 , generator global step : 135033
+epoch: 86, loss : 3.882 , generator global step : 135133
+epoch: 86, loss : 4.010 , generator global step : 135233
+epoch: 86, loss : 4.081 , generator global step : 135333
+epoch: 86, loss : 3.987 , generator global step : 135433
+epoch: 86, loss : 3.657 , generator global step : 135533
+epoch: 86, loss : 4.140 , generator global step : 135633
+epoch: 86, loss : 3.869 , generator global step : 135733
+epoch: 86, loss : 3.847 , generator global step : 135833
+epoch: 87, loss : 3.802 , generator global step : 135895
+epoch: 87, loss : 3.798 , generator global step : 135995
+epoch: 87, loss : 3.676 , generator global step : 136095
+epoch: 87, loss : 3.965 , generator global step : 136195
+epoch: 87, loss : 3.807 , generator global step : 136295
+epoch: 87, loss : 3.727 , generator global step : 136395
+epoch: 87, loss : 3.964 , generator global step : 136495
+epoch: 87, loss : 3.801 , generator global step : 136595
+epoch: 87, loss : 3.951 , generator global step : 136695
+epoch: 87, loss : 3.499 , generator global step : 136795
+epoch: 87, loss : 3.922 , generator global step : 136895
+epoch: 87, loss : 3.986 , generator global step : 136995
+epoch: 87, loss : 4.038 , generator global step : 137095
+epoch: 87, loss : 4.113 , generator global step : 137195
+epoch: 87, loss : 3.819 , generator global step : 137295
+epoch: 87, loss : 4.076 , generator global step : 137395
+epoch: 88, loss : 3.747 , generator global step : 137457
+epoch: 88, loss : 3.858 , generator global step : 137557
+epoch: 88, loss : 3.736 , generator global step : 137657
+epoch: 88, loss : 3.679 , generator global step : 137757
+epoch: 88, loss : 3.745 , generator global step : 137857
+epoch: 88, loss : 3.884 , generator global step : 137957
+epoch: 88, loss : 3.740 , generator global step : 138057
+epoch: 88, loss : 3.695 , generator global step : 138157
+epoch: 88, loss : 4.008 , generator global step : 138257
+epoch: 88, loss : 3.751 , generator global step : 138357
+epoch: 88, loss : 3.549 , generator global step : 138457
+epoch: 88, loss : 3.810 , generator global step : 138557
+epoch: 88, loss : 3.763 , generator global step : 138657
+epoch: 88, loss : 3.872 , generator global step : 138757
+epoch: 88, loss : 3.736 , generator global step : 138857
+epoch: 88, loss : 3.645 , generator global step : 138957
+epoch: 89, loss : 3.318 , generator global step : 139019
+epoch: 89, loss : 3.637 , generator global step : 139119
+epoch: 89, loss : 3.498 , generator global step : 139219
+epoch: 89, loss : 3.960 , generator global step : 139319
+epoch: 89, loss : 3.622 , generator global step : 139419
+epoch: 89, loss : 3.665 , generator global step : 139519
+epoch: 89, loss : 3.794 , generator global step : 139619
+epoch: 89, loss : 3.935 , generator global step : 139719
+epoch: 89, loss : 3.929 , generator global step : 139819
+epoch: 89, loss : 3.792 , generator global step : 139919
+epoch: 89, loss : 3.598 , generator global step : 140019
+epoch: 89, loss : 3.668 , generator global step : 140119
+epoch: 89, loss : 3.894 , generator global step : 140219
+epoch: 89, loss : 3.976 , generator global step : 140319
+epoch: 89, loss : 3.863 , generator global step : 140419
+epoch: 89, loss : 3.645 , generator global step : 140519
+epoch: 90, loss : 3.714 , generator global step : 140581
+epoch: 90, loss : 3.639 , generator global step : 140681
+epoch: 90, loss : 3.748 , generator global step : 140781
+epoch: 90, loss : 3.727 , generator global step : 140881
+epoch: 90, loss : 3.841 , generator global step : 140981
+epoch: 90, loss : 3.454 , generator global step : 141081
+epoch: 90, loss : 3.833 , generator global step : 141181
+epoch: 90, loss : 3.574 , generator global step : 141281
+epoch: 90, loss : 3.769 , generator global step : 141381
+epoch: 90, loss : 3.531 , generator global step : 141481
+epoch: 90, loss : 4.334 , generator global step : 141581
+epoch: 90, loss : 3.752 , generator global step : 141681
+epoch: 90, loss : 3.518 , generator global step : 141781
+epoch: 90, loss : 3.574 , generator global step : 141881
+epoch: 90, loss : 3.802 , generator global step : 141981
+epoch: 90, loss : 4.080 , generator global step : 142081
+epoch: 91, loss : 3.608 , generator global step : 142143
+epoch: 91, loss : 3.411 , generator global step : 142243
+epoch: 91, loss : 3.867 , generator global step : 142343
+epoch: 91, loss : 3.536 , generator global step : 142443INFO:tensorflow:seconds for 143000 training generator step: 0.243 
+INFO:tensorflow:loss: 31.410263
+INFO:tensorflow:finished 92 epoches
+INFO:tensorflow:seconds for 144000 training generator step: 0.089 
+INFO:tensorflow:loss: 10.629031
+INFO:tensorflow:seconds for 145000 training generator step: 0.286 
+INFO:tensorflow:loss: 36.748088
+INFO:tensorflow:finished 93 epoches
+INFO:tensorflow:seconds for 146000 training generator step: 0.221 
+INFO:tensorflow:loss: 26.395597
+INFO:tensorflow:finished 94 epoches
+INFO:tensorflow:seconds for 147000 training generator step: 0.052 
+INFO:tensorflow:loss: 6.070906
+INFO:tensorflow:seconds for 148000 training generator step: 0.287 
+INFO:tensorflow:loss: 36.102033
+INFO:tensorflow:finished 95 epoches
+INFO:tensorflow:seconds for 149000 training generator step: 0.185 
+INFO:tensorflow:loss: 21.602591
+INFO:tensorflow:finished 96 epoches
+INFO:tensorflow:seconds for 150000 training generator step: 0.010 
+INFO:tensorflow:loss: 1.653969
+INFO:tensorflow:seconds for 151000 training generator step: 0.285 
+INFO:tensorflow:loss: 35.373289
+INFO:tensorflow:finished 97 epoches
+INFO:tensorflow:seconds for 152000 training generator step: 0.130 
+INFO:tensorflow:loss: 16.862400
+INFO:tensorflow:seconds for 153000 training generator step: 0.286 
+INFO:tensorflow:loss: 35.631876
+INFO:tensorflow:finished 98 epoches
+INFO:tensorflow:seconds for 154000 training generator step: 0.262 
+INFO:tensorflow:loss: 32.193335
+INFO:tensorflow:finished 99 epoches
+INFO:tensorflow:seconds for 155000 training generator step: 0.092 
+INFO:tensorflow:loss: 12.322966
+INFO:tensorflow:seconds for 156000 training generator step: 0.286 
+INFO:tensorflow:loss: 35.032993
+INFO:tensorflow:finished 100 epoches
+
+epoch: 91, loss : 3.414 , generator global step : 142543
+epoch: 91, loss : 3.716 , generator global step : 142643
+epoch: 91, loss : 3.804 , generator global step : 142743
+epoch: 91, loss : 3.712 , generator global step : 142843
+epoch: 91, loss : 3.738 , generator global step : 142943
+epoch: 91, loss : 3.736 , generator global step : 143043
+epoch: 91, loss : 3.895 , generator global step : 143143
+epoch: 91, loss : 3.617 , generator global step : 143243
+epoch: 91, loss : 3.600 , generator global step : 143343
+epoch: 91, loss : 3.728 , generator global step : 143443
+epoch: 91, loss : 3.885 , generator global step : 143543
+epoch: 91, loss : 3.870 , generator global step : 143643
+epoch: 92, loss : 3.628 , generator global step : 143705
+epoch: 92, loss : 3.747 , generator global step : 143805
+epoch: 92, loss : 3.666 , generator global step : 143905
+epoch: 92, loss : 3.636 , generator global step : 144005
+epoch: 92, loss : 3.598 , generator global step : 144105
+epoch: 92, loss : 3.614 , generator global step : 144205
+epoch: 92, loss : 3.634 , generator global step : 144305
+epoch: 92, loss : 3.923 , generator global step : 144405
+epoch: 92, loss : 3.850 , generator global step : 144505
+epoch: 92, loss : 3.610 , generator global step : 144605
+epoch: 92, loss : 4.025 , generator global step : 144705
+epoch: 92, loss : 3.590 , generator global step : 144805
+epoch: 92, loss : 3.799 , generator global step : 144905
+epoch: 92, loss : 3.735 , generator global step : 145005
+epoch: 92, loss : 3.847 , generator global step : 145105
+epoch: 92, loss : 3.940 , generator global step : 145205
+epoch: 93, loss : 3.480 , generator global step : 145267
+epoch: 93, loss : 3.771 , generator global step : 145367
+epoch: 93, loss : 3.409 , generator global step : 145467
+epoch: 93, loss : 3.683 , generator global step : 145567
+epoch: 93, loss : 3.587 , generator global step : 145667
+epoch: 93, loss : 3.703 , generator global step : 145767
+epoch: 93, loss : 3.395 , generator global step : 145867
+epoch: 93, loss : 3.642 , generator global step : 145967
+epoch: 93, loss : 3.433 , generator global step : 146067
+epoch: 93, loss : 3.548 , generator global step : 146167
+epoch: 93, loss : 3.696 , generator global step : 146267
+epoch: 93, loss : 3.733 , generator global step : 146367
+epoch: 93, loss : 3.349 , generator global step : 146467
+epoch: 93, loss : 3.797 , generator global step : 146567
+epoch: 93, loss : 3.573 , generator global step : 146667
+epoch: 93, loss : 3.954 , generator global step : 146767
+epoch: 94, loss : 3.630 , generator global step : 146829
+epoch: 94, loss : 3.540 , generator global step : 146929
+epoch: 94, loss : 3.294 , generator global step : 147029
+epoch: 94, loss : 3.344 , generator global step : 147129
+epoch: 94, loss : 3.665 , generator global step : 147229
+epoch: 94, loss : 3.426 , generator global step : 147329
+epoch: 94, loss : 3.347 , generator global step : 147429
+epoch: 94, loss : 3.587 , generator global step : 147529
+epoch: 94, loss : 3.576 , generator global step : 147629
+epoch: 94, loss : 3.717 , generator global step : 147729
+epoch: 94, loss : 3.641 , generator global step : 147829
+epoch: 94, loss : 3.592 , generator global step : 147929
+epoch: 94, loss : 3.590 , generator global step : 148029
+epoch: 94, loss : 3.860 , generator global step : 148129
+epoch: 94, loss : 3.595 , generator global step : 148229
+epoch: 94, loss : 3.501 , generator global step : 148329
+epoch: 95, loss : 3.743 , generator global step : 148391
+epoch: 95, loss : 3.198 , generator global step : 148491
+epoch: 95, loss : 3.789 , generator global step : 148591
+epoch: 95, loss : 3.630 , generator global step : 148691
+epoch: 95, loss : 3.510 , generator global step : 148791
+epoch: 95, loss : 3.359 , generator global step : 148891
+epoch: 95, loss : 3.424 , generator global step : 148991
+epoch: 95, loss : 3.595 , generator global step : 149091
+epoch: 95, loss : 3.654 , generator global step : 149191
+epoch: 95, loss : 3.401 , generator global step : 149291
+epoch: 95, loss : 3.400 , generator global step : 149391
+epoch: 95, loss : 3.582 , generator global step : 149491
+epoch: 95, loss : 3.524 , generator global step : 149591
+epoch: 95, loss : 3.820 , generator global step : 149691
+epoch: 95, loss : 3.502 , generator global step : 149791
+epoch: 95, loss : 3.734 , generator global step : 149891
+epoch: 96, loss : 3.499 , generator global step : 149953
+epoch: 96, loss : 3.605 , generator global step : 150053
+epoch: 96, loss : 3.608 , generator global step : 150153
+epoch: 96, loss : 3.432 , generator global step : 150253
+epoch: 96, loss : 3.196 , generator global step : 150353
+epoch: 96, loss : 3.503 , generator global step : 150453
+epoch: 96, loss : 3.556 , generator global step : 150553
+epoch: 96, loss : 3.601 , generator global step : 150653
+epoch: 96, loss : 3.467 , generator global step : 150753
+epoch: 96, loss : 3.652 , generator global step : 150853
+epoch: 96, loss : 3.713 , generator global step : 150953
+epoch: 96, loss : 3.681 , generator global step : 151053
+epoch: 96, loss : 3.454 , generator global step : 151153
+epoch: 96, loss : 3.722 , generator global step : 151253
+epoch: 96, loss : 3.271 , generator global step : 151353
+epoch: 96, loss : 3.746 , generator global step : 151453
+epoch: 97, loss : 3.509 , generator global step : 151515
+epoch: 97, loss : 3.452 , generator global step : 151615
+epoch: 97, loss : 3.480 , generator global step : 151715
+epoch: 97, loss : 3.719 , generator global step : 151815
+epoch: 97, loss : 3.460 , generator global step : 151915
+epoch: 97, loss : 3.583 , generator global step : 152015
+epoch: 97, loss : 3.541 , generator global step : 152115
+epoch: 97, loss : 3.698 , generator global step : 152215
+epoch: 97, loss : 3.394 , generator global step : 152315
+epoch: 97, loss : 3.668 , generator global step : 152415
+epoch: 97, loss : 3.923 , generator global step : 152515
+epoch: 97, loss : 3.468 , generator global step : 152615
+epoch: 97, loss : 3.528 , generator global step : 152715
+epoch: 97, loss : 3.309 , generator global step : 152815
+epoch: 97, loss : 3.615 , generator global step : 152915
+epoch: 97, loss : 3.459 , generator global step : 153015
+epoch: 98, loss : 3.492 , generator global step : 153077
+epoch: 98, loss : 3.521 , generator global step : 153177
+epoch: 98, loss : 3.265 , generator global step : 153277
+epoch: 98, loss : 3.554 , generator global step : 153377
+epoch: 98, loss : 3.760 , generator global step : 153477
+epoch: 98, loss : 3.668 , generator global step : 153577
+epoch: 98, loss : 3.483 , generator global step : 153677
+epoch: 98, loss : 3.286 , generator global step : 153777
+epoch: 98, loss : 3.829 , generator global step : 153877
+epoch: 98, loss : 3.589 , generator global step : 153977
+epoch: 98, loss : 3.496 , generator global step : 154077
+epoch: 98, loss : 3.330 , generator global step : 154177
+epoch: 98, loss : 3.584 , generator global step : 154277
+epoch: 98, loss : 3.499 , generator global step : 154377
+epoch: 98, loss : 3.401 , generator global step : 154477
+epoch: 98, loss : 3.484 , generator global step : 154577
+epoch: 99, loss : 3.437 , generator global step : 154639
+epoch: 99, loss : 3.511 , generator global step : 154739
+epoch: 99, loss : 3.133 , generator global step : 154839
+epoch: 99, loss : 3.489 , generator global step : 154939
+epoch: 99, loss : 3.577 , generator global step : 155039
+epoch: 99, loss : 3.409 , generator global step : 155139
+epoch: 99, loss : 3.655 , generator global step : 155239
+epoch: 99, loss : 3.529 , generator global step : 155339
+epoch: 99, loss : 3.418 , generator global step : 155439
+epoch: 99, loss : 3.763 , generator global step : 155539
+epoch: 99, loss : 3.624 , generator global step : 155639
+epoch: 99, loss : 3.315 , generator global step : 155739
+epoch: 99, loss : 3.218 , generator global step : 155839
+epoch: 99, loss : 3.250 , generator global step : 155939
+epoch: 99, loss : 3.522 , generator global step : 156039
+epoch: 99, loss : 3.721 , generator global step : 156139
+epoch: 100, loss : 3.256 , generator global step : 156201
+epoch: 100, loss : 3.332 , generator global step : 156301
+epoch: 100, loss : 3.007 , generator global step : 156401
+epoch: 100, loss : 3.234 , generator global step : 156501INFO:tensorflow:seconds for 157000 training generator step: 0.223 
+INFO:tensorflow:loss: 27.329790
+INFO:tensorflow:finished 101 epoches
+INFO:tensorflow:seconds for 158000 training generator step: 0.066 
+INFO:tensorflow:loss: 8.007620
+INFO:tensorflow:seconds for 159000 training generator step: 0.285 
+INFO:tensorflow:loss: 34.369521
+INFO:tensorflow:finished 102 epoches
+INFO:tensorflow:seconds for 160000 training generator step: 0.186 
+INFO:tensorflow:loss: 22.774182
+INFO:tensorflow:finished 103 epoches
+INFO:tensorflow:seconds for 161000 training generator step: 0.034 
+INFO:tensorflow:loss: 3.783214
+INFO:tensorflow:seconds for 162000 training generator step: 0.287 
+INFO:tensorflow:loss: 33.735529
+INFO:tensorflow:finished 104 epoches
+INFO:tensorflow:seconds for 163000 training generator step: 0.149 
+INFO:tensorflow:loss: 18.249913
+INFO:tensorflow:seconds for 164000 training generator step: 0.287 
+INFO:tensorflow:loss: 34.006418
+INFO:tensorflow:finished 105 epoches
+INFO:tensorflow:seconds for 165000 training generator step: 0.283 
+INFO:tensorflow:loss: 32.837704
+INFO:tensorflow:finished 106 epoches
+INFO:tensorflow:seconds for 166000 training generator step: 0.130 
+INFO:tensorflow:loss: 13.897947
+INFO:tensorflow:seconds for 167000 training generator step: 0.289 
+INFO:tensorflow:loss: 33.472524
+INFO:tensorflow:finished 107 epoches
+INFO:tensorflow:seconds for 168000 training generator step: 0.242 
+INFO:tensorflow:loss: 28.299726
+INFO:tensorflow:finished 108 epoches
+INFO:tensorflow:seconds for 169000 training generator step: 0.091 
+INFO:tensorflow:loss: 9.753089
+INFO:tensorflow:seconds for 170000 training generator step: 0.287 
+INFO:tensorflow:loss: 32.965689
+INFO:tensorflow:finished 109 epoches
+
+epoch: 100, loss : 3.533 , generator global step : 156601
+epoch: 100, loss : 3.385 , generator global step : 156701
+epoch: 100, loss : 3.626 , generator global step : 156801
+epoch: 100, loss : 3.331 , generator global step : 156901
+epoch: 100, loss : 3.596 , generator global step : 157001
+epoch: 100, loss : 3.411 , generator global step : 157101
+epoch: 100, loss : 3.639 , generator global step : 157201
+epoch: 100, loss : 3.459 , generator global step : 157301
+epoch: 100, loss : 3.341 , generator global step : 157401
+epoch: 100, loss : 3.663 , generator global step : 157501
+epoch: 100, loss : 3.590 , generator global step : 157601
+epoch: 100, loss : 3.580 , generator global step : 157701
+epoch: 101, loss : 3.435 , generator global step : 157763
+epoch: 101, loss : 3.470 , generator global step : 157863
+epoch: 101, loss : 3.564 , generator global step : 157963
+epoch: 101, loss : 3.407 , generator global step : 158063
+epoch: 101, loss : 3.526 , generator global step : 158163
+epoch: 101, loss : 3.459 , generator global step : 158263
+epoch: 101, loss : 3.492 , generator global step : 158363
+epoch: 101, loss : 3.061 , generator global step : 158463
+epoch: 101, loss : 3.242 , generator global step : 158563
+epoch: 101, loss : 3.524 , generator global step : 158663
+epoch: 101, loss : 3.537 , generator global step : 158763
+epoch: 101, loss : 3.239 , generator global step : 158863
+epoch: 101, loss : 3.441 , generator global step : 158963
+epoch: 101, loss : 3.501 , generator global step : 159063
+epoch: 101, loss : 3.645 , generator global step : 159163
+epoch: 101, loss : 3.381 , generator global step : 159263
+epoch: 102, loss : 2.947 , generator global step : 159325
+epoch: 102, loss : 3.284 , generator global step : 159425
+epoch: 102, loss : 3.525 , generator global step : 159525
+epoch: 102, loss : 3.257 , generator global step : 159625
+epoch: 102, loss : 3.244 , generator global step : 159725
+epoch: 102, loss : 3.491 , generator global step : 159825
+epoch: 102, loss : 3.248 , generator global step : 159925
+epoch: 102, loss : 3.437 , generator global step : 160025
+epoch: 102, loss : 3.397 , generator global step : 160125
+epoch: 102, loss : 3.461 , generator global step : 160225
+epoch: 102, loss : 3.434 , generator global step : 160325
+epoch: 102, loss : 3.155 , generator global step : 160425
+epoch: 102, loss : 3.338 , generator global step : 160525
+epoch: 102, loss : 3.663 , generator global step : 160625
+epoch: 102, loss : 3.468 , generator global step : 160725
+epoch: 102, loss : 3.570 , generator global step : 160825
+epoch: 103, loss : 3.354 , generator global step : 160887
+epoch: 103, loss : 3.533 , generator global step : 160987
+epoch: 103, loss : 3.323 , generator global step : 161087
+epoch: 103, loss : 3.343 , generator global step : 161187
+epoch: 103, loss : 3.245 , generator global step : 161287
+epoch: 103, loss : 3.321 , generator global step : 161387
+epoch: 103, loss : 3.162 , generator global step : 161487
+epoch: 103, loss : 3.557 , generator global step : 161587
+epoch: 103, loss : 3.275 , generator global step : 161687
+epoch: 103, loss : 3.593 , generator global step : 161787
+epoch: 103, loss : 3.364 , generator global step : 161887
+epoch: 103, loss : 3.407 , generator global step : 161987
+epoch: 103, loss : 3.382 , generator global step : 162087
+epoch: 103, loss : 3.578 , generator global step : 162187
+epoch: 103, loss : 3.353 , generator global step : 162287
+epoch: 103, loss : 3.654 , generator global step : 162387
+epoch: 104, loss : 3.190 , generator global step : 162449
+epoch: 104, loss : 3.300 , generator global step : 162549
+epoch: 104, loss : 3.104 , generator global step : 162649
+epoch: 104, loss : 3.408 , generator global step : 162749
+epoch: 104, loss : 3.343 , generator global step : 162849
+epoch: 104, loss : 3.457 , generator global step : 162949
+epoch: 104, loss : 3.584 , generator global step : 163049
+epoch: 104, loss : 3.825 , generator global step : 163149
+epoch: 104, loss : 3.527 , generator global step : 163249
+epoch: 104, loss : 3.411 , generator global step : 163349
+epoch: 104, loss : 3.410 , generator global step : 163449
+epoch: 104, loss : 3.532 , generator global step : 163549
+epoch: 104, loss : 3.465 , generator global step : 163649
+epoch: 104, loss : 3.475 , generator global step : 163749
+epoch: 104, loss : 3.589 , generator global step : 163849
+epoch: 104, loss : 3.399 , generator global step : 163949
+epoch: 105, loss : 3.201 , generator global step : 164011
+epoch: 105, loss : 3.303 , generator global step : 164111
+epoch: 105, loss : 3.369 , generator global step : 164211
+epoch: 105, loss : 3.338 , generator global step : 164311
+epoch: 105, loss : 3.521 , generator global step : 164411
+epoch: 105, loss : 3.232 , generator global step : 164511
+epoch: 105, loss : 3.566 , generator global step : 164611
+epoch: 105, loss : 3.173 , generator global step : 164711
+epoch: 105, loss : 3.417 , generator global step : 164811
+epoch: 105, loss : 3.470 , generator global step : 164911
+epoch: 105, loss : 3.621 , generator global step : 165011
+epoch: 105, loss : 3.277 , generator global step : 165111
+epoch: 105, loss : 3.572 , generator global step : 165211
+epoch: 105, loss : 3.581 , generator global step : 165311
+epoch: 105, loss : 3.357 , generator global step : 165411
+epoch: 105, loss : 3.221 , generator global step : 165511
+epoch: 106, loss : 3.102 , generator global step : 165573
+epoch: 106, loss : 3.275 , generator global step : 165673
+epoch: 106, loss : 3.372 , generator global step : 165773
+epoch: 106, loss : 3.220 , generator global step : 165873
+epoch: 106, loss : 3.386 , generator global step : 165973
+epoch: 106, loss : 3.469 , generator global step : 166073
+epoch: 106, loss : 3.210 , generator global step : 166173
+epoch: 106, loss : 3.487 , generator global step : 166273
+epoch: 106, loss : 3.165 , generator global step : 166373
+epoch: 106, loss : 3.281 , generator global step : 166473
+epoch: 106, loss : 3.462 , generator global step : 166573
+epoch: 106, loss : 3.540 , generator global step : 166673
+epoch: 106, loss : 3.489 , generator global step : 166773
+epoch: 106, loss : 3.417 , generator global step : 166873
+epoch: 106, loss : 3.599 , generator global step : 166973
+epoch: 106, loss : 3.402 , generator global step : 167073
+epoch: 107, loss : 2.942 , generator global step : 167135
+epoch: 107, loss : 3.362 , generator global step : 167235
+epoch: 107, loss : 3.125 , generator global step : 167335
+epoch: 107, loss : 3.297 , generator global step : 167435
+epoch: 107, loss : 3.088 , generator global step : 167535
+epoch: 107, loss : 2.947 , generator global step : 167635
+epoch: 107, loss : 3.359 , generator global step : 167735
+epoch: 107, loss : 3.687 , generator global step : 167835
+epoch: 107, loss : 3.395 , generator global step : 167935
+epoch: 107, loss : 3.412 , generator global step : 168035
+epoch: 107, loss : 3.389 , generator global step : 168135
+epoch: 107, loss : 3.389 , generator global step : 168235
+epoch: 107, loss : 3.333 , generator global step : 168335
+epoch: 107, loss : 3.451 , generator global step : 168435
+epoch: 107, loss : 3.185 , generator global step : 168535
+epoch: 107, loss : 3.383 , generator global step : 168635
+epoch: 108, loss : 3.380 , generator global step : 168697
+epoch: 108, loss : 3.162 , generator global step : 168797
+epoch: 108, loss : 3.285 , generator global step : 168897
+epoch: 108, loss : 3.097 , generator global step : 168997
+epoch: 108, loss : 3.240 , generator global step : 169097
+epoch: 108, loss : 3.261 , generator global step : 169197
+epoch: 108, loss : 2.909 , generator global step : 169297
+epoch: 108, loss : 3.284 , generator global step : 169397
+epoch: 108, loss : 3.220 , generator global step : 169497
+epoch: 108, loss : 3.430 , generator global step : 169597
+epoch: 108, loss : 3.127 , generator global step : 169697
+epoch: 108, loss : 3.378 , generator global step : 169797
+epoch: 108, loss : 3.095 , generator global step : 169897
+epoch: 108, loss : 3.244 , generator global step : 169997
+epoch: 108, loss : 3.459 , generator global step : 170097
+epoch: 108, loss : 3.539 , generator global step : 170197
+epoch: 109, loss : 3.111 , generator global step : 170259
+epoch: 109, loss : 2.959 , generator global step : 170359INFO:tensorflow:seconds for 171000 training generator step: 0.215 
+INFO:tensorflow:loss: 23.870811
+INFO:tensorflow:finished 110 epoches
+INFO:tensorflow:seconds for 172000 training generator step: 0.054 
+INFO:tensorflow:loss: 5.676164
+INFO:tensorflow:seconds for 173000 training generator step: 0.287 
+INFO:tensorflow:loss: 32.358697
+INFO:tensorflow:finished 111 epoches
+INFO:tensorflow:seconds for 174000 training generator step: 0.187 
+INFO:tensorflow:loss: 19.630121
+INFO:tensorflow:finished 112 epoches
+INFO:tensorflow:seconds for 175000 training generator step: 0.017 
+INFO:tensorflow:loss: 1.752297
+INFO:tensorflow:seconds for 176000 training generator step: 0.286 
+INFO:tensorflow:loss: 31.806786
+INFO:tensorflow:finished 113 epoches
+INFO:tensorflow:seconds for 177000 training generator step: 0.146 
+INFO:tensorflow:loss: 15.457148
+INFO:tensorflow:seconds for 178000 training generator step: 0.285 
+INFO:tensorflow:loss: 32.104833
+INFO:tensorflow:finished 114 epoches
+INFO:tensorflow:seconds for 179000 training generator step: 0.269 
+INFO:tensorflow:loss: 29.299916
+INFO:tensorflow:finished 115 epoches
+INFO:tensorflow:seconds for 180000 training generator step: 0.093 
+INFO:tensorflow:loss: 11.418892
+INFO:tensorflow:seconds for 181000 training generator step: 0.288 
+INFO:tensorflow:loss: 31.616307
+INFO:tensorflow:finished 116 epoches
+INFO:tensorflow:seconds for 182000 training generator step: 0.227 
+INFO:tensorflow:loss: 25.017683
+INFO:tensorflow:finished 117 epoches
+INFO:tensorflow:seconds for 183000 training generator step: 0.056 
+INFO:tensorflow:loss: 7.498365
+INFO:tensorflow:seconds for 184000 training generator step: 0.286 
+INFO:tensorflow:loss: 31.103462
+
+epoch: 109, loss : 3.247 , generator global step : 170459
+epoch: 109, loss : 3.146 , generator global step : 170559
+epoch: 109, loss : 3.181 , generator global step : 170659
+epoch: 109, loss : 3.296 , generator global step : 170759
+epoch: 109, loss : 3.152 , generator global step : 170859
+epoch: 109, loss : 3.475 , generator global step : 170959
+epoch: 109, loss : 3.193 , generator global step : 171059
+epoch: 109, loss : 3.625 , generator global step : 171159
+epoch: 109, loss : 3.544 , generator global step : 171259
+epoch: 109, loss : 3.476 , generator global step : 171359
+epoch: 109, loss : 3.405 , generator global step : 171459
+epoch: 109, loss : 3.279 , generator global step : 171559
+epoch: 109, loss : 3.347 , generator global step : 171659
+epoch: 109, loss : 3.034 , generator global step : 171759
+epoch: 110, loss : 3.112 , generator global step : 171821
+epoch: 110, loss : 2.924 , generator global step : 171921
+epoch: 110, loss : 3.368 , generator global step : 172021
+epoch: 110, loss : 3.119 , generator global step : 172121
+epoch: 110, loss : 3.258 , generator global step : 172221
+epoch: 110, loss : 3.114 , generator global step : 172321
+epoch: 110, loss : 3.447 , generator global step : 172421
+epoch: 110, loss : 3.089 , generator global step : 172521
+epoch: 110, loss : 3.249 , generator global step : 172621
+epoch: 110, loss : 3.264 , generator global step : 172721
+epoch: 110, loss : 3.300 , generator global step : 172821
+epoch: 110, loss : 2.945 , generator global step : 172921
+epoch: 110, loss : 3.353 , generator global step : 173021
+epoch: 110, loss : 3.178 , generator global step : 173121
+epoch: 110, loss : 3.424 , generator global step : 173221
+epoch: 110, loss : 3.450 , generator global step : 173321
+epoch: 111, loss : 3.227 , generator global step : 173383
+epoch: 111, loss : 3.107 , generator global step : 173483
+epoch: 111, loss : 3.036 , generator global step : 173583
+epoch: 111, loss : 2.774 , generator global step : 173683
+epoch: 111, loss : 3.323 , generator global step : 173783
+epoch: 111, loss : 3.702 , generator global step : 173883
+epoch: 111, loss : 3.291 , generator global step : 173983
+epoch: 111, loss : 3.381 , generator global step : 174083
+epoch: 111, loss : 3.270 , generator global step : 174183
+epoch: 111, loss : 3.190 , generator global step : 174283
+epoch: 111, loss : 3.278 , generator global step : 174383
+epoch: 111, loss : 3.492 , generator global step : 174483
+epoch: 111, loss : 3.353 , generator global step : 174583
+epoch: 111, loss : 3.169 , generator global step : 174683
+epoch: 111, loss : 3.486 , generator global step : 174783
+epoch: 111, loss : 3.006 , generator global step : 174883
+epoch: 112, loss : 2.999 , generator global step : 174945
+epoch: 112, loss : 3.113 , generator global step : 175045
+epoch: 112, loss : 3.260 , generator global step : 175145
+epoch: 112, loss : 3.044 , generator global step : 175245
+epoch: 112, loss : 3.106 , generator global step : 175345
+epoch: 112, loss : 2.974 , generator global step : 175445
+epoch: 112, loss : 3.714 , generator global step : 175545
+epoch: 112, loss : 3.203 , generator global step : 175645
+epoch: 112, loss : 3.135 , generator global step : 175745
+epoch: 112, loss : 3.358 , generator global step : 175845
+epoch: 112, loss : 2.953 , generator global step : 175945
+epoch: 112, loss : 3.339 , generator global step : 176045
+epoch: 112, loss : 3.326 , generator global step : 176145
+epoch: 112, loss : 3.028 , generator global step : 176245
+epoch: 112, loss : 3.271 , generator global step : 176345
+epoch: 112, loss : 2.986 , generator global step : 176445
+epoch: 113, loss : 3.112 , generator global step : 176507
+epoch: 113, loss : 3.249 , generator global step : 176607
+epoch: 113, loss : 3.011 , generator global step : 176707
+epoch: 113, loss : 3.013 , generator global step : 176807
+epoch: 113, loss : 3.174 , generator global step : 176907
+epoch: 113, loss : 3.301 , generator global step : 177007
+epoch: 113, loss : 3.006 , generator global step : 177107
+epoch: 113, loss : 3.200 , generator global step : 177207
+epoch: 113, loss : 3.667 , generator global step : 177307
+epoch: 113, loss : 3.428 , generator global step : 177407
+epoch: 113, loss : 3.181 , generator global step : 177507
+epoch: 113, loss : 2.909 , generator global step : 177607
+epoch: 113, loss : 3.280 , generator global step : 177707
+epoch: 113, loss : 3.245 , generator global step : 177807
+epoch: 113, loss : 3.340 , generator global step : 177907
+epoch: 113, loss : 3.167 , generator global step : 178007
+epoch: 114, loss : 3.187 , generator global step : 178069
+epoch: 114, loss : 3.086 , generator global step : 178169
+epoch: 114, loss : 3.038 , generator global step : 178269
+epoch: 114, loss : 3.019 , generator global step : 178369
+epoch: 114, loss : 3.303 , generator global step : 178469
+epoch: 114, loss : 3.300 , generator global step : 178569
+epoch: 114, loss : 3.221 , generator global step : 178669
+epoch: 114, loss : 3.222 , generator global step : 178769
+epoch: 114, loss : 3.039 , generator global step : 178869
+epoch: 114, loss : 3.140 , generator global step : 178969
+epoch: 114, loss : 3.048 , generator global step : 179069
+epoch: 114, loss : 3.127 , generator global step : 179169
+epoch: 114, loss : 3.072 , generator global step : 179269
+epoch: 114, loss : 3.281 , generator global step : 179369
+epoch: 114, loss : 3.350 , generator global step : 179469
+epoch: 114, loss : 3.210 , generator global step : 179569
+epoch: 115, loss : 2.841 , generator global step : 179631
+epoch: 115, loss : 2.807 , generator global step : 179731
+epoch: 115, loss : 3.207 , generator global step : 179831
+epoch: 115, loss : 3.048 , generator global step : 179931
+epoch: 115, loss : 3.229 , generator global step : 180031
+epoch: 115, loss : 3.185 , generator global step : 180131
+epoch: 115, loss : 2.864 , generator global step : 180231
+epoch: 115, loss : 3.021 , generator global step : 180331
+epoch: 115, loss : 3.063 , generator global step : 180431
+epoch: 115, loss : 3.358 , generator global step : 180531
+epoch: 115, loss : 3.211 , generator global step : 180631
+epoch: 115, loss : 3.236 , generator global step : 180731
+epoch: 115, loss : 3.012 , generator global step : 180831
+epoch: 115, loss : 3.032 , generator global step : 180931
+epoch: 115, loss : 3.409 , generator global step : 181031
+epoch: 115, loss : 3.120 , generator global step : 181131
+epoch: 116, loss : 3.033 , generator global step : 181193
+epoch: 116, loss : 3.232 , generator global step : 181293
+epoch: 116, loss : 3.115 , generator global step : 181393
+epoch: 116, loss : 3.200 , generator global step : 181493
+epoch: 116, loss : 3.120 , generator global step : 181593
+epoch: 116, loss : 2.896 , generator global step : 181693
+epoch: 116, loss : 3.146 , generator global step : 181793
+epoch: 116, loss : 3.276 , generator global step : 181893
+epoch: 116, loss : 2.947 , generator global step : 181993
+epoch: 116, loss : 3.409 , generator global step : 182093
+epoch: 116, loss : 3.181 , generator global step : 182193
+epoch: 116, loss : 2.813 , generator global step : 182293
+epoch: 116, loss : 3.592 , generator global step : 182393
+epoch: 116, loss : 2.703 , generator global step : 182493
+epoch: 116, loss : 3.135 , generator global step : 182593
+epoch: 116, loss : 3.055 , generator global step : 182693
+epoch: 117, loss : 3.020 , generator global step : 182755
+epoch: 117, loss : 3.045 , generator global step : 182855
+epoch: 117, loss : 3.316 , generator global step : 182955
+epoch: 117, loss : 3.184 , generator global step : 183055
+epoch: 117, loss : 2.977 , generator global step : 183155
+epoch: 117, loss : 3.084 , generator global step : 183255
+epoch: 117, loss : 3.015 , generator global step : 183355
+epoch: 117, loss : 2.643 , generator global step : 183455
+epoch: 117, loss : 2.954 , generator global step : 183555
+epoch: 117, loss : 3.392 , generator global step : 183655
+epoch: 117, loss : 3.039 , generator global step : 183755
+epoch: 117, loss : 2.993 , generator global step : 183855
+epoch: 117, loss : 3.088 , generator global step : 183955
+epoch: 117, loss : 3.246 , generator global step : 184055
+epoch: 117, loss : 3.228 , generator global step : 184155
+epoch: 117, loss : 3.174 , generator global step : 184255INFO:tensorflow:finished 118 epoches
+INFO:tensorflow:seconds for 185000 training generator step: 0.189 
+INFO:tensorflow:loss: 20.873645
+INFO:tensorflow:finished 119 epoches
+INFO:tensorflow:seconds for 186000 training generator step: 0.037 
+INFO:tensorflow:loss: 3.666834
+INFO:tensorflow:seconds for 187000 training generator step: 0.288 
+INFO:tensorflow:loss: 30.664517
+INFO:tensorflow:finished 120 epoches
+INFO:tensorflow:seconds for 188000 training generator step: 0.151 
+INFO:tensorflow:loss: 16.916950
+INFO:tensorflow:seconds for 189000 training generator step: 0.289 
+INFO:tensorflow:loss: 30.854244
+INFO:tensorflow:finished 121 epoches
+INFO:tensorflow:seconds for 190000 training generator step: 0.284 
+INFO:tensorflow:loss: 30.152540
+INFO:tensorflow:finished 122 epoches
+INFO:tensorflow:seconds for 191000 training generator step: 0.125 
+INFO:tensorflow:loss: 12.970676
+INFO:tensorflow:seconds for 192000 training generator step: 0.286 
+INFO:tensorflow:loss: 30.451664
+INFO:tensorflow:finished 123 epoches
+INFO:tensorflow:seconds for 193000 training generator step: 0.246 
+INFO:tensorflow:loss: 26.111558
+INFO:tensorflow:finished 124 epoches
+INFO:tensorflow:seconds for 194000 training generator step: 0.094 
+INFO:tensorflow:loss: 9.168110
+INFO:tensorflow:seconds for 195000 training generator step: 0.289 
+INFO:tensorflow:loss: 29.989543
+INFO:tensorflow:finished 125 epoches
+INFO:tensorflow:seconds for 196000 training generator step: 0.210 
+INFO:tensorflow:loss: 22.138650
+INFO:tensorflow:finished 126 epoches
+INFO:tensorflow:seconds for 197000 training generator step: 0.058 
+INFO:tensorflow:loss: 5.441516
+INFO:tensorflow:seconds for 198000 training generator step: 0.288 
+INFO:tensorflow:loss: 29.604600
+
+epoch: 118, loss : 3.079 , generator global step : 184317
+epoch: 118, loss : 3.308 , generator global step : 184417
+epoch: 118, loss : 2.956 , generator global step : 184517
+epoch: 118, loss : 3.241 , generator global step : 184617
+epoch: 118, loss : 3.218 , generator global step : 184717
+epoch: 118, loss : 2.964 , generator global step : 184817
+epoch: 118, loss : 3.221 , generator global step : 184917
+epoch: 118, loss : 2.890 , generator global step : 185017
+epoch: 118, loss : 2.928 , generator global step : 185117
+epoch: 118, loss : 3.259 , generator global step : 185217
+epoch: 118, loss : 2.872 , generator global step : 185317
+epoch: 118, loss : 3.217 , generator global step : 185417
+epoch: 118, loss : 3.030 , generator global step : 185517
+epoch: 118, loss : 3.359 , generator global step : 185617
+epoch: 118, loss : 3.311 , generator global step : 185717
+epoch: 118, loss : 2.929 , generator global step : 185817
+epoch: 119, loss : 3.046 , generator global step : 185879
+epoch: 119, loss : 3.087 , generator global step : 185979
+epoch: 119, loss : 3.200 , generator global step : 186079
+epoch: 119, loss : 3.296 , generator global step : 186179
+epoch: 119, loss : 3.036 , generator global step : 186279
+epoch: 119, loss : 2.818 , generator global step : 186379
+epoch: 119, loss : 3.189 , generator global step : 186479
+epoch: 119, loss : 3.218 , generator global step : 186579
+epoch: 119, loss : 3.254 , generator global step : 186679
+epoch: 119, loss : 3.097 , generator global step : 186779
+epoch: 119, loss : 3.389 , generator global step : 186879
+epoch: 119, loss : 3.245 , generator global step : 186979
+epoch: 119, loss : 2.959 , generator global step : 187079
+epoch: 119, loss : 3.266 , generator global step : 187179
+epoch: 119, loss : 3.514 , generator global step : 187279
+epoch: 119, loss : 3.172 , generator global step : 187379
+epoch: 120, loss : 3.104 , generator global step : 187441
+epoch: 120, loss : 3.088 , generator global step : 187541
+epoch: 120, loss : 3.196 , generator global step : 187641
+epoch: 120, loss : 2.804 , generator global step : 187741
+epoch: 120, loss : 2.910 , generator global step : 187841
+epoch: 120, loss : 3.139 , generator global step : 187941
+epoch: 120, loss : 3.295 , generator global step : 188041
+epoch: 120, loss : 3.191 , generator global step : 188141
+epoch: 120, loss : 3.151 , generator global step : 188241
+epoch: 120, loss : 2.913 , generator global step : 188341
+epoch: 120, loss : 3.063 , generator global step : 188441
+epoch: 120, loss : 2.943 , generator global step : 188541
+epoch: 120, loss : 2.993 , generator global step : 188641
+epoch: 120, loss : 2.940 , generator global step : 188741
+epoch: 120, loss : 2.979 , generator global step : 188841
+epoch: 120, loss : 2.888 , generator global step : 188941
+epoch: 121, loss : 2.582 , generator global step : 189003
+epoch: 121, loss : 2.930 , generator global step : 189103
+epoch: 121, loss : 2.883 , generator global step : 189203
+epoch: 121, loss : 2.896 , generator global step : 189303
+epoch: 121, loss : 3.239 , generator global step : 189403
+epoch: 121, loss : 2.923 , generator global step : 189503
+epoch: 121, loss : 2.872 , generator global step : 189603
+epoch: 121, loss : 2.922 , generator global step : 189703
+epoch: 121, loss : 3.117 , generator global step : 189803
+epoch: 121, loss : 2.991 , generator global step : 189903
+epoch: 121, loss : 2.872 , generator global step : 190003
+epoch: 121, loss : 2.937 , generator global step : 190103
+epoch: 121, loss : 3.276 , generator global step : 190203
+epoch: 121, loss : 3.098 , generator global step : 190303
+epoch: 121, loss : 3.307 , generator global step : 190403
+epoch: 121, loss : 3.023 , generator global step : 190503
+epoch: 122, loss : 2.831 , generator global step : 190565
+epoch: 122, loss : 2.949 , generator global step : 190665
+epoch: 122, loss : 2.907 , generator global step : 190765
+epoch: 122, loss : 3.081 , generator global step : 190865
+epoch: 122, loss : 2.901 , generator global step : 190965
+epoch: 122, loss : 2.847 , generator global step : 191065
+epoch: 122, loss : 2.905 , generator global step : 191165
+epoch: 122, loss : 2.908 , generator global step : 191265
+epoch: 122, loss : 2.973 , generator global step : 191365
+epoch: 122, loss : 2.626 , generator global step : 191465
+epoch: 122, loss : 3.196 , generator global step : 191565
+epoch: 122, loss : 2.794 , generator global step : 191665
+epoch: 122, loss : 3.047 , generator global step : 191765
+epoch: 122, loss : 3.037 , generator global step : 191865
+epoch: 122, loss : 2.868 , generator global step : 191965
+epoch: 122, loss : 3.354 , generator global step : 192065
+epoch: 123, loss : 2.782 , generator global step : 192127
+epoch: 123, loss : 2.750 , generator global step : 192227
+epoch: 123, loss : 2.930 , generator global step : 192327
+epoch: 123, loss : 2.871 , generator global step : 192427
+epoch: 123, loss : 2.551 , generator global step : 192527
+epoch: 123, loss : 3.191 , generator global step : 192627
+epoch: 123, loss : 2.991 , generator global step : 192727
+epoch: 123, loss : 3.127 , generator global step : 192827
+epoch: 123, loss : 2.931 , generator global step : 192927
+epoch: 123, loss : 3.381 , generator global step : 193027
+epoch: 123, loss : 3.032 , generator global step : 193127
+epoch: 123, loss : 2.659 , generator global step : 193227
+epoch: 123, loss : 2.742 , generator global step : 193327
+epoch: 123, loss : 3.397 , generator global step : 193427
+epoch: 123, loss : 3.074 , generator global step : 193527
+epoch: 123, loss : 3.178 , generator global step : 193627
+epoch: 124, loss : 3.111 , generator global step : 193689
+epoch: 124, loss : 2.795 , generator global step : 193789
+epoch: 124, loss : 2.952 , generator global step : 193889
+epoch: 124, loss : 3.236 , generator global step : 193989
+epoch: 124, loss : 2.980 , generator global step : 194089
+epoch: 124, loss : 2.756 , generator global step : 194189
+epoch: 124, loss : 2.732 , generator global step : 194289
+epoch: 124, loss : 2.797 , generator global step : 194389
+epoch: 124, loss : 2.787 , generator global step : 194489
+epoch: 124, loss : 2.890 , generator global step : 194589
+epoch: 124, loss : 2.894 , generator global step : 194689
+epoch: 124, loss : 3.025 , generator global step : 194789
+epoch: 124, loss : 2.807 , generator global step : 194889
+epoch: 124, loss : 2.814 , generator global step : 194989
+epoch: 124, loss : 2.911 , generator global step : 195089
+epoch: 124, loss : 2.962 , generator global step : 195189
+epoch: 125, loss : 2.808 , generator global step : 195251
+epoch: 125, loss : 2.845 , generator global step : 195351
+epoch: 125, loss : 2.781 , generator global step : 195451
+epoch: 125, loss : 2.996 , generator global step : 195551
+epoch: 125, loss : 2.983 , generator global step : 195651
+epoch: 125, loss : 3.077 , generator global step : 195751
+epoch: 125, loss : 3.079 , generator global step : 195851
+epoch: 125, loss : 3.092 , generator global step : 195951
+epoch: 125, loss : 2.861 , generator global step : 196051
+epoch: 125, loss : 2.982 , generator global step : 196151
+epoch: 125, loss : 2.960 , generator global step : 196251
+epoch: 125, loss : 2.801 , generator global step : 196351
+epoch: 125, loss : 3.209 , generator global step : 196451
+epoch: 125, loss : 2.757 , generator global step : 196551
+epoch: 125, loss : 3.027 , generator global step : 196651
+epoch: 125, loss : 2.887 , generator global step : 196751
+epoch: 126, loss : 3.070 , generator global step : 196813
+epoch: 126, loss : 3.091 , generator global step : 196913
+epoch: 126, loss : 2.789 , generator global step : 197013
+epoch: 126, loss : 2.946 , generator global step : 197113
+epoch: 126, loss : 3.160 , generator global step : 197213
+epoch: 126, loss : 2.981 , generator global step : 197313
+epoch: 126, loss : 2.907 , generator global step : 197413
+epoch: 126, loss : 2.980 , generator global step : 197513
+epoch: 126, loss : 2.684 , generator global step : 197613
+epoch: 126, loss : 3.058 , generator global step : 197713
+epoch: 126, loss : 2.838 , generator global step : 197813
+epoch: 126, loss : 2.835 , generator global step : 197913
+epoch: 126, loss : 2.894 , generator global step : 198013
+epoch: 126, loss : 3.075 , generator global step : 198113INFO:tensorflow:finished 127 epoches
+INFO:tensorflow:seconds for 199000 training generator step: 0.188 
+INFO:tensorflow:loss: 18.201439
+INFO:tensorflow:finished 128 epoches
+INFO:tensorflow:seconds for 200000 training generator step: 0.020 
+INFO:tensorflow:loss: 1.838117
+INFO:tensorflow:seconds for 201000 training generator step: 0.290 
+INFO:tensorflow:loss: 29.192764
+INFO:tensorflow:finished 129 epoches
+INFO:tensorflow:seconds for 202000 training generator step: 0.151 
+INFO:tensorflow:loss: 14.405904
+INFO:tensorflow:seconds for 203000 training generator step: 0.287 
+INFO:tensorflow:loss: 29.500046
+INFO:tensorflow:finished 130 epoches
+INFO:tensorflow:seconds for 204000 training generator step: 0.268 
+INFO:tensorflow:loss: 27.091090
+INFO:tensorflow:finished 131 epoches
+INFO:tensorflow:seconds for 205000 training generator step: 0.112 
+INFO:tensorflow:loss: 10.704526
+INFO:tensorflow:seconds for 206000 training generator step: 0.285 
+INFO:tensorflow:loss: 29.128640
+INFO:tensorflow:finished 132 epoches
+INFO:tensorflow:seconds for 207000 training generator step: 0.234 
+INFO:tensorflow:loss: 23.304780
+INFO:tensorflow:finished 133 epoches
+INFO:tensorflow:seconds for 208000 training generator step: 0.062 
+INFO:tensorflow:loss: 7.097003
+INFO:tensorflow:seconds for 209000 training generator step: 0.286 
+INFO:tensorflow:loss: 28.704552
+INFO:tensorflow:finished 134 epoches
+INFO:tensorflow:seconds for 210000 training generator step: 0.191 
+INFO:tensorflow:loss: 19.442853
+INFO:tensorflow:finished 135 epoches
+INFO:tensorflow:seconds for 211000 training generator step: 0.033 
+INFO:tensorflow:loss: 3.594232
+
+epoch: 126, loss : 2.608 , generator global step : 198213
+epoch: 126, loss : 3.074 , generator global step : 198313
+epoch: 127, loss : 3.312 , generator global step : 198375
+epoch: 127, loss : 3.054 , generator global step : 198475
+epoch: 127, loss : 2.803 , generator global step : 198575
+epoch: 127, loss : 2.632 , generator global step : 198675
+epoch: 127, loss : 2.892 , generator global step : 198775
+epoch: 127, loss : 2.952 , generator global step : 198875
+epoch: 127, loss : 3.237 , generator global step : 198975
+epoch: 127, loss : 2.970 , generator global step : 199075
+epoch: 127, loss : 2.997 , generator global step : 199175
+epoch: 127, loss : 2.942 , generator global step : 199275
+epoch: 127, loss : 2.950 , generator global step : 199375
+epoch: 127, loss : 3.122 , generator global step : 199475
+epoch: 127, loss : 2.973 , generator global step : 199575
+epoch: 127, loss : 2.723 , generator global step : 199675
+epoch: 127, loss : 3.093 , generator global step : 199775
+epoch: 127, loss : 2.662 , generator global step : 199875
+epoch: 128, loss : 2.858 , generator global step : 199937
+epoch: 128, loss : 3.167 , generator global step : 200037
+epoch: 128, loss : 3.294 , generator global step : 200137
+epoch: 128, loss : 2.841 , generator global step : 200237
+epoch: 128, loss : 2.594 , generator global step : 200337
+epoch: 128, loss : 2.970 , generator global step : 200437
+epoch: 128, loss : 2.676 , generator global step : 200537
+epoch: 128, loss : 3.093 , generator global step : 200637
+epoch: 128, loss : 2.850 , generator global step : 200737
+epoch: 128, loss : 2.752 , generator global step : 200837
+epoch: 128, loss : 2.955 , generator global step : 200937
+epoch: 128, loss : 3.039 , generator global step : 201037
+epoch: 128, loss : 3.039 , generator global step : 201137
+epoch: 128, loss : 2.831 , generator global step : 201237
+epoch: 128, loss : 2.753 , generator global step : 201337
+epoch: 128, loss : 3.057 , generator global step : 201437
+epoch: 129, loss : 2.901 , generator global step : 201499
+epoch: 129, loss : 2.943 , generator global step : 201599
+epoch: 129, loss : 2.839 , generator global step : 201699
+epoch: 129, loss : 3.005 , generator global step : 201799
+epoch: 129, loss : 2.894 , generator global step : 201899
+epoch: 129, loss : 2.943 , generator global step : 201999
+epoch: 129, loss : 2.798 , generator global step : 202099
+epoch: 129, loss : 2.918 , generator global step : 202199
+epoch: 129, loss : 2.864 , generator global step : 202299
+epoch: 129, loss : 2.940 , generator global step : 202399
+epoch: 129, loss : 2.938 , generator global step : 202499
+epoch: 129, loss : 2.776 , generator global step : 202599
+epoch: 129, loss : 2.822 , generator global step : 202699
+epoch: 129, loss : 2.922 , generator global step : 202799
+epoch: 129, loss : 2.809 , generator global step : 202899
+epoch: 129, loss : 2.946 , generator global step : 202999
+epoch: 130, loss : 2.333 , generator global step : 203061
+epoch: 130, loss : 2.666 , generator global step : 203161
+epoch: 130, loss : 2.967 , generator global step : 203261
+epoch: 130, loss : 2.636 , generator global step : 203361
+epoch: 130, loss : 3.054 , generator global step : 203461
+epoch: 130, loss : 2.803 , generator global step : 203561
+epoch: 130, loss : 2.859 , generator global step : 203661
+epoch: 130, loss : 2.884 , generator global step : 203761
+epoch: 130, loss : 2.776 , generator global step : 203861
+epoch: 130, loss : 2.931 , generator global step : 203961
+epoch: 130, loss : 3.054 , generator global step : 204061
+epoch: 130, loss : 2.726 , generator global step : 204161
+epoch: 130, loss : 2.733 , generator global step : 204261
+epoch: 130, loss : 3.176 , generator global step : 204361
+epoch: 130, loss : 2.964 , generator global step : 204461
+epoch: 130, loss : 3.196 , generator global step : 204561
+epoch: 131, loss : 3.148 , generator global step : 204623
+epoch: 131, loss : 2.707 , generator global step : 204723
+epoch: 131, loss : 3.218 , generator global step : 204823
+epoch: 131, loss : 3.051 , generator global step : 204923
+epoch: 131, loss : 2.531 , generator global step : 205023
+epoch: 131, loss : 3.022 , generator global step : 205123
+epoch: 131, loss : 3.136 , generator global step : 205223
+epoch: 131, loss : 2.908 , generator global step : 205323
+epoch: 131, loss : 3.036 , generator global step : 205423
+epoch: 131, loss : 2.719 , generator global step : 205523
+epoch: 131, loss : 2.835 , generator global step : 205623
+epoch: 131, loss : 2.979 , generator global step : 205723
+epoch: 131, loss : 2.727 , generator global step : 205823
+epoch: 131, loss : 2.924 , generator global step : 205923
+epoch: 131, loss : 2.934 , generator global step : 206023
+epoch: 131, loss : 2.696 , generator global step : 206123
+epoch: 132, loss : 2.656 , generator global step : 206185
+epoch: 132, loss : 2.773 , generator global step : 206285
+epoch: 132, loss : 2.886 , generator global step : 206385
+epoch: 132, loss : 3.167 , generator global step : 206485
+epoch: 132, loss : 2.809 , generator global step : 206585
+epoch: 132, loss : 2.877 , generator global step : 206685
+epoch: 132, loss : 2.956 , generator global step : 206785
+epoch: 132, loss : 2.729 , generator global step : 206885
+epoch: 132, loss : 2.858 , generator global step : 206985
+epoch: 132, loss : 2.757 , generator global step : 207085
+epoch: 132, loss : 2.948 , generator global step : 207185
+epoch: 132, loss : 2.706 , generator global step : 207285
+epoch: 132, loss : 3.013 , generator global step : 207385
+epoch: 132, loss : 2.738 , generator global step : 207485
+epoch: 132, loss : 2.863 , generator global step : 207585
+epoch: 132, loss : 3.120 , generator global step : 207685
+epoch: 133, loss : 2.762 , generator global step : 207747
+epoch: 133, loss : 2.533 , generator global step : 207847
+epoch: 133, loss : 2.732 , generator global step : 207947
+epoch: 133, loss : 2.761 , generator global step : 208047
+epoch: 133, loss : 2.692 , generator global step : 208147
+epoch: 133, loss : 2.769 , generator global step : 208247
+epoch: 133, loss : 2.694 , generator global step : 208347
+epoch: 133, loss : 2.714 , generator global step : 208447
+epoch: 133, loss : 2.816 , generator global step : 208547
+epoch: 133, loss : 2.985 , generator global step : 208647
+epoch: 133, loss : 2.754 , generator global step : 208747
+epoch: 133, loss : 2.851 , generator global step : 208847
+epoch: 133, loss : 2.890 , generator global step : 208947
+epoch: 133, loss : 2.719 , generator global step : 209047
+epoch: 133, loss : 2.778 , generator global step : 209147
+epoch: 133, loss : 2.759 , generator global step : 209247
+epoch: 134, loss : 3.134 , generator global step : 209309
+epoch: 134, loss : 2.932 , generator global step : 209409
+epoch: 134, loss : 2.464 , generator global step : 209509
+epoch: 134, loss : 3.062 , generator global step : 209609
+epoch: 134, loss : 2.669 , generator global step : 209709
+epoch: 134, loss : 2.732 , generator global step : 209809
+epoch: 134, loss : 3.198 , generator global step : 209909
+epoch: 134, loss : 2.795 , generator global step : 210009
+epoch: 134, loss : 3.018 , generator global step : 210109
+epoch: 134, loss : 2.924 , generator global step : 210209
+epoch: 134, loss : 2.708 , generator global step : 210309
+epoch: 134, loss : 3.055 , generator global step : 210409
+epoch: 134, loss : 2.933 , generator global step : 210509
+epoch: 134, loss : 3.118 , generator global step : 210609
+epoch: 134, loss : 2.812 , generator global step : 210709
+epoch: 134, loss : 2.797 , generator global step : 210809
+epoch: 135, loss : 2.835 , generator global step : 210871
+epoch: 135, loss : 2.736 , generator global step : 210971
+epoch: 135, loss : 2.988 , generator global step : 211071
+epoch: 135, loss : 2.883 , generator global step : 211171
+epoch: 135, loss : 2.885 , generator global step : 211271
+epoch: 135, loss : 2.714 , generator global step : 211371
+epoch: 135, loss : 2.867 , generator global step : 211471
+epoch: 135, loss : 2.749 , generator global step : 211571
+epoch: 135, loss : 2.574 , generator global step : 211671
+epoch: 135, loss : 2.917 , generator global step : 211771
+epoch: 135, loss : 2.626 , generator global step : 211871
+epoch: 135, loss : 3.071 , generator global step : 211971INFO:tensorflow:seconds for 212000 training generator step: 0.289 
+INFO:tensorflow:loss: 28.317272
+INFO:tensorflow:finished 136 epoches
+INFO:tensorflow:seconds for 213000 training generator step: 0.153 
+INFO:tensorflow:loss: 15.816733
+INFO:tensorflow:finished 137 epoches
+INFO:tensorflow:seconds for 214000 training generator step: 0.002 
+INFO:tensorflow:loss: 0.169985
+INFO:tensorflow:seconds for 215000 training generator step: 0.285 
+INFO:tensorflow:loss: 27.941553
+INFO:tensorflow:finished 138 epoches
+INFO:tensorflow:seconds for 216000 training generator step: 0.115 
+INFO:tensorflow:loss: 12.217802
+INFO:tensorflow:seconds for 217000 training generator step: 0.288 
+INFO:tensorflow:loss: 28.200537
+INFO:tensorflow:finished 139 epoches
+INFO:tensorflow:seconds for 218000 training generator step: 0.249 
+INFO:tensorflow:loss: 24.306252
+INFO:tensorflow:finished 140 epoches
+INFO:tensorflow:seconds for 219000 training generator step: 0.096 
+INFO:tensorflow:loss: 8.662182
+INFO:tensorflow:seconds for 220000 training generator step: 0.287 
+INFO:tensorflow:loss: 27.882529
+INFO:tensorflow:finished 141 epoches
+INFO:tensorflow:seconds for 221000 training generator step: 0.214 
+INFO:tensorflow:loss: 20.664474
+INFO:tensorflow:finished 142 epoches
+INFO:tensorflow:seconds for 222000 training generator step: 0.059 
+INFO:tensorflow:loss: 5.262606
+INFO:tensorflow:seconds for 223000 training generator step: 0.287 
+INFO:tensorflow:loss: 27.469993
+INFO:tensorflow:finished 143 epoches
+INFO:tensorflow:seconds for 224000 training generator step: 0.177 
+INFO:tensorflow:loss: 17.125932
+INFO:tensorflow:finished 144 epoches
+INFO:tensorflow:seconds for 225000 training generator step: 0.022 
+INFO:tensorflow:loss: 1.898681
+
+epoch: 135, loss : 2.862 , generator global step : 212071
+epoch: 135, loss : 2.799 , generator global step : 212171
+epoch: 135, loss : 3.046 , generator global step : 212271
+epoch: 135, loss : 2.910 , generator global step : 212371
+epoch: 136, loss : 2.672 , generator global step : 212433
+epoch: 136, loss : 2.646 , generator global step : 212533
+epoch: 136, loss : 2.940 , generator global step : 212633
+epoch: 136, loss : 2.676 , generator global step : 212733
+epoch: 136, loss : 2.835 , generator global step : 212833
+epoch: 136, loss : 2.956 , generator global step : 212933
+epoch: 136, loss : 2.897 , generator global step : 213033
+epoch: 136, loss : 3.038 , generator global step : 213133
+epoch: 136, loss : 2.716 , generator global step : 213233
+epoch: 136, loss : 3.156 , generator global step : 213333
+epoch: 136, loss : 2.381 , generator global step : 213433
+epoch: 136, loss : 2.504 , generator global step : 213533
+epoch: 136, loss : 2.861 , generator global step : 213633
+epoch: 136, loss : 2.655 , generator global step : 213733
+epoch: 136, loss : 2.988 , generator global step : 213833
+epoch: 136, loss : 3.031 , generator global step : 213933
+epoch: 137, loss : 2.946 , generator global step : 213995
+epoch: 137, loss : 2.663 , generator global step : 214095
+epoch: 137, loss : 2.787 , generator global step : 214195
+epoch: 137, loss : 2.795 , generator global step : 214295
+epoch: 137, loss : 2.434 , generator global step : 214395
+epoch: 137, loss : 2.587 , generator global step : 214495
+epoch: 137, loss : 2.758 , generator global step : 214595
+epoch: 137, loss : 2.782 , generator global step : 214695
+epoch: 137, loss : 2.926 , generator global step : 214795
+epoch: 137, loss : 2.847 , generator global step : 214895
+epoch: 137, loss : 2.972 , generator global step : 214995
+epoch: 137, loss : 2.589 , generator global step : 215095
+epoch: 137, loss : 2.756 , generator global step : 215195
+epoch: 137, loss : 3.206 , generator global step : 215295
+epoch: 137, loss : 3.253 , generator global step : 215395
+epoch: 137, loss : 2.456 , generator global step : 215495
+epoch: 138, loss : 2.813 , generator global step : 215557
+epoch: 138, loss : 2.697 , generator global step : 215657
+epoch: 138, loss : 2.653 , generator global step : 215757
+epoch: 138, loss : 2.980 , generator global step : 215857
+epoch: 138, loss : 3.030 , generator global step : 215957
+epoch: 138, loss : 2.885 , generator global step : 216057
+epoch: 138, loss : 2.845 , generator global step : 216157
+epoch: 138, loss : 2.713 , generator global step : 216257
+epoch: 138, loss : 2.799 , generator global step : 216357
+epoch: 138, loss : 3.128 , generator global step : 216457
+epoch: 138, loss : 3.106 , generator global step : 216557
+epoch: 138, loss : 2.834 , generator global step : 216657
+epoch: 138, loss : 2.969 , generator global step : 216757
+epoch: 138, loss : 2.949 , generator global step : 216857
+epoch: 138, loss : 2.807 , generator global step : 216957
+epoch: 138, loss : 2.697 , generator global step : 217057
+epoch: 139, loss : 2.643 , generator global step : 217119
+epoch: 139, loss : 2.968 , generator global step : 217219
+epoch: 139, loss : 2.735 , generator global step : 217319
+epoch: 139, loss : 2.809 , generator global step : 217419
+epoch: 139, loss : 2.831 , generator global step : 217519
+epoch: 139, loss : 2.647 , generator global step : 217619
+epoch: 139, loss : 2.717 , generator global step : 217719
+epoch: 139, loss : 2.689 , generator global step : 217819
+epoch: 139, loss : 2.623 , generator global step : 217919
+epoch: 139, loss : 2.653 , generator global step : 218019
+epoch: 139, loss : 2.880 , generator global step : 218119
+epoch: 139, loss : 2.908 , generator global step : 218219
+epoch: 139, loss : 2.546 , generator global step : 218319
+epoch: 139, loss : 3.119 , generator global step : 218419
+epoch: 139, loss : 2.759 , generator global step : 218519
+epoch: 139, loss : 2.684 , generator global step : 218619
+epoch: 140, loss : 2.581 , generator global step : 218681
+epoch: 140, loss : 2.515 , generator global step : 218781
+epoch: 140, loss : 2.764 , generator global step : 218881
+epoch: 140, loss : 2.603 , generator global step : 218981
+epoch: 140, loss : 2.504 , generator global step : 219081
+epoch: 140, loss : 2.740 , generator global step : 219181
+epoch: 140, loss : 2.887 , generator global step : 219281
+epoch: 140, loss : 2.825 , generator global step : 219381
+epoch: 140, loss : 2.968 , generator global step : 219481
+epoch: 140, loss : 2.806 , generator global step : 219581
+epoch: 140, loss : 3.242 , generator global step : 219681
+epoch: 140, loss : 2.781 , generator global step : 219781
+epoch: 140, loss : 2.846 , generator global step : 219881
+epoch: 140, loss : 3.318 , generator global step : 219981
+epoch: 140, loss : 2.791 , generator global step : 220081
+epoch: 140, loss : 3.308 , generator global step : 220181
+epoch: 141, loss : 2.833 , generator global step : 220243
+epoch: 141, loss : 2.470 , generator global step : 220343
+epoch: 141, loss : 2.554 , generator global step : 220443
+epoch: 141, loss : 2.615 , generator global step : 220543
+epoch: 141, loss : 2.687 , generator global step : 220643
+epoch: 141, loss : 3.016 , generator global step : 220743
+epoch: 141, loss : 2.854 , generator global step : 220843
+epoch: 141, loss : 3.012 , generator global step : 220943
+epoch: 141, loss : 2.871 , generator global step : 221043
+epoch: 141, loss : 2.614 , generator global step : 221143
+epoch: 141, loss : 2.680 , generator global step : 221243
+epoch: 141, loss : 2.821 , generator global step : 221343
+epoch: 141, loss : 2.725 , generator global step : 221443
+epoch: 141, loss : 2.677 , generator global step : 221543
+epoch: 141, loss : 3.004 , generator global step : 221643
+epoch: 141, loss : 3.161 , generator global step : 221743
+epoch: 142, loss : 2.788 , generator global step : 221805
+epoch: 142, loss : 2.705 , generator global step : 221905
+epoch: 142, loss : 2.690 , generator global step : 222005
+epoch: 142, loss : 2.590 , generator global step : 222105
+epoch: 142, loss : 2.895 , generator global step : 222205
+epoch: 142, loss : 2.823 , generator global step : 222305
+epoch: 142, loss : 2.853 , generator global step : 222405
+epoch: 142, loss : 2.799 , generator global step : 222505
+epoch: 142, loss : 2.671 , generator global step : 222605
+epoch: 142, loss : 2.753 , generator global step : 222705
+epoch: 142, loss : 2.626 , generator global step : 222805
+epoch: 142, loss : 2.870 , generator global step : 222905
+epoch: 142, loss : 3.078 , generator global step : 223005
+epoch: 142, loss : 3.023 , generator global step : 223105
+epoch: 142, loss : 2.970 , generator global step : 223205
+epoch: 142, loss : 2.773 , generator global step : 223305
+epoch: 143, loss : 2.966 , generator global step : 223367
+epoch: 143, loss : 2.724 , generator global step : 223467
+epoch: 143, loss : 2.666 , generator global step : 223567
+epoch: 143, loss : 2.828 , generator global step : 223667
+epoch: 143, loss : 2.699 , generator global step : 223767
+epoch: 143, loss : 2.686 , generator global step : 223867
+epoch: 143, loss : 2.671 , generator global step : 223967
+epoch: 143, loss : 2.506 , generator global step : 224067
+epoch: 143, loss : 2.788 , generator global step : 224167
+epoch: 143, loss : 2.795 , generator global step : 224267
+epoch: 143, loss : 2.636 , generator global step : 224367
+epoch: 143, loss : 2.810 , generator global step : 224467
+epoch: 143, loss : 2.729 , generator global step : 224567
+epoch: 143, loss : 2.678 , generator global step : 224667
+epoch: 143, loss : 2.895 , generator global step : 224767
+epoch: 143, loss : 2.909 , generator global step : 224867
+epoch: 144, loss : 2.676 , generator global step : 224929
+epoch: 144, loss : 2.373 , generator global step : 225029
+epoch: 144, loss : 2.613 , generator global step : 225129
+epoch: 144, loss : 2.415 , generator global step : 225229
+epoch: 144, loss : 2.501 , generator global step : 225329
+epoch: 144, loss : 2.561 , generator global step : 225429
+epoch: 144, loss : 2.691 , generator global step : 225529
+epoch: 144, loss : 2.699 , generator global step : 225629
+epoch: 144, loss : 2.541 , generator global step : 225729
+epoch: 144, loss : 2.557 , generator global step : 225829INFO:tensorflow:seconds for 226000 training generator step: 0.288 
+INFO:tensorflow:loss: 27.060870
+INFO:tensorflow:finished 145 epoches
+INFO:tensorflow:seconds for 227000 training generator step: 0.155 
+INFO:tensorflow:loss: 13.665086
+INFO:tensorflow:seconds for 228000 training generator step: 0.289 
+INFO:tensorflow:loss: 27.316407
+INFO:tensorflow:finished 146 epoches
+INFO:tensorflow:seconds for 229000 training generator step: 0.267 
+INFO:tensorflow:loss: 25.381790
+INFO:tensorflow:finished 147 epoches
+INFO:tensorflow:seconds for 230000 training generator step: 0.117 
+INFO:tensorflow:loss: 10.106200
+INFO:tensorflow:seconds for 231000 training generator step: 0.287 
+INFO:tensorflow:loss: 27.080032
+INFO:tensorflow:finished 148 epoches
+INFO:tensorflow:seconds for 232000 training generator step: 0.241 
+INFO:tensorflow:loss: 21.815850
+INFO:tensorflow:finished 149 epoches
+INFO:tensorflow:seconds for 233000 training generator step: 0.079 
+INFO:tensorflow:loss: 6.840001
+INFO:tensorflow:seconds for 234000 training generator step: 0.287 
+INFO:tensorflow:loss: 26.687831
+INFO:tensorflow:finished 150 epoches
+INFO:tensorflow:seconds for 235000 training generator step: 0.209 
+INFO:tensorflow:loss: 18.368674
+INFO:tensorflow:finished 151 epoches
+INFO:tensorflow:seconds for 236000 training generator step: 0.036 
+INFO:tensorflow:loss: 3.581767
