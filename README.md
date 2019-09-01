@@ -1,6 +1,6 @@
 # NLPcourse-QA
 
-this is my NLP course project. Our group wants to build a QA system.
+This is NLP course project. Our group wants to build a QA system.
 
 need retrieval/data/   directory, copy from local directly.
 
